@@ -1,0 +1,3146 @@
+fileFormatVersion: 2
+guid: 56bbd0f1329163d44adadb63dd6d2553
+timeCreated: 1430240445
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: miscelania_0
+    21300002: miscelania_1
+    21300004: miscelania_2
+    21300006: miscelania_3
+    21300008: miscelania_4
+    21300010: miscelania_5
+    21300012: miscelania_6
+    21300014: miscelania_7
+    21300016: miscelania_8
+    21300018: miscelania_9
+    21300020: miscelania_10
+    21300022: miscelania_11
+    21300024: miscelania_12
+    21300026: miscelania_13
+    21300028: miscelania_14
+    21300030: miscelania_15
+    21300032: miscelania_16
+    21300034: miscelania_17
+    21300036: miscelania_18
+    21300038: miscelania_19
+    21300040: miscelania_20
+    21300042: miscelania_21
+    21300044: miscelania_22
+    21300046: miscelania_23
+    21300048: miscelania_24
+    21300050: miscelania_25
+    21300052: miscelania_26
+    21300054: miscelania_27
+    21300056: miscelania_28
+    21300058: miscelania_29
+    21300060: miscelania_30
+    21300062: miscelania_31
+    21300064: miscelania_32
+    21300066: miscelania_33
+    21300068: miscelania_34
+    21300070: miscelania_35
+    21300072: miscelania_36
+    21300074: miscelania_37
+    21300076: miscelania_38
+    21300078: miscelania_39
+    21300080: miscelania_40
+    21300082: miscelania_41
+    21300084: miscelania_42
+    21300086: miscelania_43
+    21300088: miscelania_44
+    21300090: miscelania_45
+    21300092: miscelania_46
+    21300094: miscelania_47
+    21300096: miscelania_48
+    21300098: miscelania_49
+    21300100: miscelania_50
+    21300102: miscelania_51
+    21300104: miscelania_52
+    21300106: miscelania_53
+    21300108: miscelania_54
+    21300110: miscelania_55
+    21300112: miscelania_56
+    21300114: miscelania_57
+    21300116: miscelania_58
+    21300118: miscelania_59
+    21300120: miscelania_60
+    21300122: miscelania_61
+    21300124: miscelania_62
+    21300126: miscelania_63
+    21300128: miscelania_64
+    21300130: miscelania_65
+    21300132: miscelania_66
+    21300134: miscelania_67
+    21300136: miscelania_68
+    21300138: miscelania_69
+    21300140: miscelania_70
+    21300142: miscelania_71
+    21300144: miscelania_72
+    21300146: miscelania_73
+    21300148: miscelania_74
+    21300150: miscelania_75
+    21300152: miscelania_76
+    21300154: miscelania_77
+    21300156: miscelania_78
+    21300158: miscelania_79
+    21300160: miscelania_80
+    21300162: miscelania_81
+    21300164: miscelania_82
+    21300166: miscelania_83
+    21300168: miscelania_84
+    21300170: miscelania_85
+    21300172: miscelania_86
+    21300174: miscelania_87
+    21300176: miscelania_88
+    21300178: miscelania_89
+    21300180: miscelania_90
+    21300182: miscelania_91
+    21300184: miscelania_92
+    21300186: miscelania_93
+    21300188: miscelania_94
+    21300190: miscelania_95
+    21300192: miscelania_96
+    21300194: miscelania_97
+    21300196: miscelania_98
+    21300198: miscelania_99
+    21300200: miscelania_100
+    21300202: miscelania_101
+    21300204: miscelania_102
+    21300206: miscelania_103
+    21300208: miscelania_104
+    21300210: miscelania_105
+    21300212: miscelania_106
+    21300214: miscelania_107
+    21300216: miscelania_108
+    21300218: miscelania_109
+    21300220: miscelania_110
+    21300222: miscelania_111
+    21300224: miscelania_112
+    21300226: miscelania_113
+    21300228: miscelania_114
+    21300230: miscelania_115
+    21300232: miscelania_116
+    21300234: miscelania_117
+    21300236: miscelania_118
+    21300238: miscelania_119
+    21300240: miscelania_120
+    21300242: miscelania_121
+    21300244: miscelania_122
+    21300246: miscelania_123
+    21300248: miscelania_124
+    21300250: miscelania_125
+    21300252: miscelania_126
+    21300254: miscelania_127
+    21300256: miscelania_128
+    21300258: miscelania_129
+    21300260: miscelania_130
+    21300262: miscelania_131
+    21300264: miscelania_132
+    21300266: miscelania_133
+    21300268: miscelania_134
+    21300270: miscelania_135
+    21300272: miscelania_136
+    21300274: miscelania_137
+    21300276: miscelania_138
+    21300278: miscelania_139
+    21300280: miscelania_140
+    21300282: miscelania_141
+    21300284: miscelania_142
+    21300286: miscelania_143
+    21300288: miscelania_144
+    21300290: miscelania_145
+    21300292: miscelania_146
+    21300294: miscelania_147
+    21300296: miscelania_148
+    21300298: miscelania_149
+    21300300: miscelania_150
+    21300302: miscelania_151
+    21300304: miscelania_152
+    21300306: miscelania_153
+    21300308: miscelania_154
+    21300310: miscelania_155
+    21300312: miscelania_156
+    21300314: miscelania_157
+    21300316: miscelania_158
+    21300318: miscelania_159
+    21300320: miscelania_160
+    21300322: miscelania_161
+    21300324: miscelania_162
+    21300326: miscelania_163
+    21300328: miscelania_164
+    21300330: miscelania_165
+    21300332: miscelania_166
+    21300334: miscelania_167
+    21300336: miscelania_168
+    21300338: miscelania_169
+    21300340: miscelania_170
+    21300342: miscelania_171
+    21300344: miscelania_172
+    21300346: miscelania_173
+    21300348: miscelania_174
+    21300350: miscelania_175
+    21300352: miscelania_176
+    21300354: miscelania_177
+    21300356: miscelania_178
+    21300358: miscelania_179
+    21300360: miscelania_180
+    21300362: miscelania_181
+    21300364: miscelania_182
+    21300366: miscelania_183
+    21300368: miscelania_184
+    21300370: miscelania_185
+    21300372: miscelania_186
+    21300374: miscelania_187
+    21300376: miscelania_188
+    21300378: miscelania_189
+    21300380: miscelania_190
+    21300382: miscelania_191
+    21300384: miscelania_192
+    21300386: miscelania_193
+    21300388: miscelania_194
+    21300390: miscelania_195
+    21300392: miscelania_196
+    21300394: miscelania_197
+    21300396: miscelania_198
+    21300398: miscelania_199
+    21300400: miscelania_200
+    21300402: miscelania_201
+    21300404: miscelania_202
+    21300406: miscelania_203
+    21300408: miscelania_204
+    21300410: miscelania_205
+    21300412: miscelania_206
+    21300414: miscelania_207
+    21300416: miscelania_208
+    21300418: miscelania_209
+    21300420: miscelania_210
+    21300422: miscelania_211
+    21300424: miscelania_212
+    21300426: miscelania_213
+    21300428: miscelania_214
+    21300430: miscelania_215
+    21300432: miscelania_216
+    21300434: miscelania_217
+    21300436: miscelania_218
+    21300438: miscelania_219
+    21300440: miscelania_220
+    21300442: miscelania_221
+    21300444: miscelania_222
+    21300446: miscelania_223
+    21300448: miscelania_224
+    21300450: miscelania_225
+    21300452: miscelania_226
+    21300454: miscelania_227
+    21300456: miscelania_228
+    21300458: miscelania_229
+    21300460: miscelania_230
+    21300462: miscelania_231
+    21300464: miscelania_232
+    21300466: miscelania_233
+    21300468: miscelania_234
+    21300470: miscelania_235
+    21300472: miscelania_236
+    21300474: miscelania_237
+    21300476: miscelania_238
+    21300478: miscelania_239
+    21300480: miscelania_240
+    21300482: miscelania_241
+    21300484: miscelania_242
+    21300486: miscelania_243
+    21300488: miscelania_244
+    21300490: miscelania_245
+    21300492: miscelania_246
+    21300494: miscelania_247
+    21300496: miscelania_248
+    21300498: miscelania_249
+    21300500: miscelania_250
+    21300502: miscelania_251
+    21300504: miscelania_252
+    21300506: miscelania_253
+    21300508: miscelania_254
+    21300510: miscelania_255
+    21300512: miscelania_256
+    21300514: miscelania_257
+    21300516: miscelania_258
+    21300518: miscelania_259
+    21300520: miscelania_260
+    21300522: miscelania_261
+    21300524: miscelania_262
+    21300526: miscelania_263
+    21300528: miscelania_264
+    21300530: miscelania_265
+    21300532: miscelania_266
+    21300534: miscelania_267
+    21300536: miscelania_268
+    21300538: miscelania_269
+    21300540: miscelania_270
+    21300542: miscelania_271
+    21300544: miscelania_272
+    21300546: miscelania_273
+    21300548: miscelania_274
+    21300550: miscelania_275
+    21300552: miscelania_276
+    21300554: miscelania_277
+    21300556: miscelania_278
+    21300558: miscelania_279
+    21300560: miscelania_280
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 8192
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: miscelania_0
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 641
+        width: 25
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: miscelania_1
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 641
+        width: 25
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: miscelania_2
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 641
+        width: 25
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: miscelania_3
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 641
+        width: 25
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: miscelania_4
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 640
+        width: 29
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: miscelania_5
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 640
+        width: 29
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: miscelania_6
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 640
+        width: 29
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: miscelania_7
+      rect:
+        serializedVersion: 2
+        x: 364
+        y: 643
+        width: 30
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: miscelania_8
+      rect:
+        serializedVersion: 2
+        x: 409
+        y: 643
+        width: 30
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: miscelania_9
+      rect:
+        serializedVersion: 2
+        x: 454
+        y: 643
+        width: 30
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: miscelania_10
+      rect:
+        serializedVersion: 2
+        x: 499
+        y: 643
+        width: 30
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: miscelania_11
+      rect:
+        serializedVersion: 2
+        x: 545
+        y: 641
+        width: 28
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: miscelania_12
+      rect:
+        serializedVersion: 2
+        x: 590
+        y: 640
+        width: 28
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: miscelania_13
+      rect:
+        serializedVersion: 2
+        x: 638
+        y: 643
+        width: 23
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: miscelania_14
+      rect:
+        serializedVersion: 2
+        x: 681
+        y: 640
+        width: 27
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: miscelania_15
+      rect:
+        serializedVersion: 2
+        x: 727
+        y: 641
+        width: 24
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: miscelania_16
+      rect:
+        serializedVersion: 2
+        x: 773
+        y: 642
+        width: 23
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: miscelania_17
+      rect:
+        serializedVersion: 2
+        x: 818
+        y: 642
+        width: 23
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: miscelania_18
+      rect:
+        serializedVersion: 2
+        x: 864
+        y: 642
+        width: 22
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: miscelania_19
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 594
+        width: 23
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: miscelania_20
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 594
+        width: 23
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: miscelania_21
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 594
+        width: 25
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: miscelania_22
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 593
+        width: 26
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: miscelania_23
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 595
+        width: 25
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: miscelania_24
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 595
+        width: 23
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: miscelania_25
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 595
+        width: 24
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: miscelania_26
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 593
+        width: 21
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: miscelania_27
+      rect:
+        serializedVersion: 2
+        x: 411
+        y: 593
+        width: 25
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: miscelania_28
+      rect:
+        serializedVersion: 2
+        x: 458
+        y: 594
+        width: 22
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: miscelania_29
+      rect:
+        serializedVersion: 2
+        x: 503
+        y: 594
+        width: 23
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: miscelania_30
+      rect:
+        serializedVersion: 2
+        x: 548
+        y: 594
+        width: 23
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: miscelania_31
+      rect:
+        serializedVersion: 2
+        x: 593
+        y: 594
+        width: 23
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: miscelania_32
+      rect:
+        serializedVersion: 2
+        x: 635
+        y: 591
+        width: 28
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: miscelania_33
+      rect:
+        serializedVersion: 2
+        x: 680
+        y: 591
+        width: 28
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: miscelania_34
+      rect:
+        serializedVersion: 2
+        x: 725
+        y: 591
+        width: 29
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: miscelania_35
+      rect:
+        serializedVersion: 2
+        x: 770
+        y: 591
+        width: 29
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: miscelania_36
+      rect:
+        serializedVersion: 2
+        x: 815
+        y: 591
+        width: 29
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: miscelania_37
+      rect:
+        serializedVersion: 2
+        x: 860
+        y: 591
+        width: 29
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: miscelania_38
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 545
+        width: 18
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: miscelania_39
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 544
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: miscelania_40
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 547
+        width: 25
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: miscelania_41
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 548
+        width: 19
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: miscelania_42
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 547
+        width: 18
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: miscelania_43
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 545
+        width: 23
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: miscelania_44
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 546
+        width: 21
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: miscelania_45
+      rect:
+        serializedVersion: 2
+        x: 369
+        y: 545
+        width: 19
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: miscelania_46
+      rect:
+        serializedVersion: 2
+        x: 414
+        y: 545
+        width: 19
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: miscelania_47
+      rect:
+        serializedVersion: 2
+        x: 456
+        y: 544
+        width: 26
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: miscelania_48
+      rect:
+        serializedVersion: 2
+        x: 505
+        y: 543
+        width: 19
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: miscelania_49
+      rect:
+        serializedVersion: 2
+        x: 545
+        y: 543
+        width: 28
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: miscelania_50
+      rect:
+        serializedVersion: 2
+        x: 595
+        y: 544
+        width: 19
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: miscelania_51
+      rect:
+        serializedVersion: 2
+        x: 636
+        y: 547
+        width: 27
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: miscelania_52
+      rect:
+        serializedVersion: 2
+        x: 681
+        y: 548
+        width: 27
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: miscelania_53
+      rect:
+        serializedVersion: 2
+        x: 728
+        y: 548
+        width: 23
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: miscelania_54
+      rect:
+        serializedVersion: 2
+        x: 775
+        y: 547
+        width: 19
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: miscelania_55
+      rect:
+        serializedVersion: 2
+        x: 818
+        y: 549
+        width: 23
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: miscelania_56
+      rect:
+        serializedVersion: 2
+        x: 864
+        y: 547
+        width: 22
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: miscelania_57
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 500
+        width: 27
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: miscelania_58
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 494
+        width: 28
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: miscelania_59
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 496
+        width: 25
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: miscelania_60
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 494
+        width: 14
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: miscelania_61
+      rect:
+        serializedVersion: 2
+        x: 237
+        y: 494
+        width: 14
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: miscelania_62
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 494
+        width: 28
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: miscelania_63
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 499
+        width: 22
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: miscelania_64
+      rect:
+        serializedVersion: 2
+        x: 366
+        y: 496
+        width: 25
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: miscelania_65
+      rect:
+        serializedVersion: 2
+        x: 412
+        y: 495
+        width: 23
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: miscelania_66
+      rect:
+        serializedVersion: 2
+        x: 455
+        y: 493
+        width: 28
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: miscelania_67
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 498
+        width: 28
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: miscelania_68
+      rect:
+        serializedVersion: 2
+        x: 545
+        y: 498
+        width: 28
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: miscelania_69
+      rect:
+        serializedVersion: 2
+        x: 591
+        y: 497
+        width: 26
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: miscelania_70
+      rect:
+        serializedVersion: 2
+        x: 636
+        y: 498
+        width: 27
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: miscelania_71
+      rect:
+        serializedVersion: 2
+        x: 681
+        y: 498
+        width: 27
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: miscelania_72
+      rect:
+        serializedVersion: 2
+        x: 726
+        y: 494
+        width: 28
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: miscelania_73
+      rect:
+        serializedVersion: 2
+        x: 770
+        y: 495
+        width: 29
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: miscelania_74
+      rect:
+        serializedVersion: 2
+        x: 817
+        y: 494
+        width: 26
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: miscelania_75
+      rect:
+        serializedVersion: 2
+        x: 860
+        y: 494
+        width: 29
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: miscelania_76
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 446
+        width: 26
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: miscelania_77
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 447
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: miscelania_78
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 446
+        width: 32
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: miscelania_79
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 447
+        width: 25
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: miscelania_80
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 446
+        width: 28
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: miscelania_81
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 448
+        width: 19
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: miscelania_82
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 446
+        width: 14
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: miscelania_83
+      rect:
+        serializedVersion: 2
+        x: 369
+        y: 453
+        width: 19
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: miscelania_84
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 446
+        width: 12
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: miscelania_85
+      rect:
+        serializedVersion: 2
+        x: 455
+        y: 452
+        width: 28
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: miscelania_86
+      rect:
+        serializedVersion: 2
+        x: 502
+        y: 449
+        width: 24
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: miscelania_87
+      rect:
+        serializedVersion: 2
+        x: 545
+        y: 447
+        width: 28
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: miscelania_88
+      rect:
+        serializedVersion: 2
+        x: 591
+        y: 449
+        width: 26
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: miscelania_89
+      rect:
+        serializedVersion: 2
+        x: 639
+        y: 449
+        width: 21
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: miscelania_90
+      rect:
+        serializedVersion: 2
+        x: 681
+        y: 450
+        width: 27
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: miscelania_91
+      rect:
+        serializedVersion: 2
+        x: 726
+        y: 448
+        width: 28
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: miscelania_92
+      rect:
+        serializedVersion: 2
+        x: 770
+        y: 447
+        width: 29
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: miscelania_93
+      rect:
+        serializedVersion: 2
+        x: 815
+        y: 448
+        width: 29
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: miscelania_94
+      rect:
+        serializedVersion: 2
+        x: 860
+        y: 446
+        width: 29
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: miscelania_95
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 398
+        width: 28
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: miscelania_96
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 399
+        width: 28
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: miscelania_97
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 399
+        width: 28
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: miscelania_98
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 398
+        width: 20
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: miscelania_99
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 402
+        width: 28
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: miscelania_100
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 398
+        width: 29
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: miscelania_101
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 398
+        width: 29
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: miscelania_102
+      rect:
+        serializedVersion: 2
+        x: 366
+        y: 399
+        width: 25
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: miscelania_103
+      rect:
+        serializedVersion: 2
+        x: 409
+        y: 399
+        width: 29
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: miscelania_104
+      rect:
+        serializedVersion: 2
+        x: 454
+        y: 399
+        width: 29
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: miscelania_105
+      rect:
+        serializedVersion: 2
+        x: 499
+        y: 398
+        width: 29
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: miscelania_106
+      rect:
+        serializedVersion: 2
+        x: 545
+        y: 398
+        width: 28
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: miscelania_107
+      rect:
+        serializedVersion: 2
+        x: 590
+        y: 398
+        width: 28
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: miscelania_108
+      rect:
+        serializedVersion: 2
+        x: 636
+        y: 397
+        width: 27
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: miscelania_109
+      rect:
+        serializedVersion: 2
+        x: 681
+        y: 397
+        width: 27
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: miscelania_110
+      rect:
+        serializedVersion: 2
+        x: 726
+        y: 397
+        width: 27
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: miscelania_111
+      rect:
+        serializedVersion: 2
+        x: 775
+        y: 397
+        width: 19
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: miscelania_112
+      rect:
+        serializedVersion: 2
+        x: 817
+        y: 400
+        width: 25
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: miscelania_113
+      rect:
+        serializedVersion: 2
+        x: 863
+        y: 399
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: miscelania_114
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 352
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: miscelania_115
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 351
+        width: 23
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: miscelania_116
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 349
+        width: 29
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: miscelania_117
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 349
+        width: 27
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: miscelania_118
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 352
+        width: 29
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: miscelania_119
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 351
+        width: 25
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: miscelania_120
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 350
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: miscelania_121
+      rect:
+        serializedVersion: 2
+        x: 364
+        y: 352
+        width: 29
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: miscelania_122
+      rect:
+        serializedVersion: 2
+        x: 409
+        y: 351
+        width: 29
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: miscelania_123
+      rect:
+        serializedVersion: 2
+        x: 456
+        y: 351
+        width: 26
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: miscelania_124
+      rect:
+        serializedVersion: 2
+        x: 504
+        y: 354
+        width: 21
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: miscelania_125
+      rect:
+        serializedVersion: 2
+        x: 548
+        y: 350
+        width: 23
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: miscelania_126
+      rect:
+        serializedVersion: 2
+        x: 591
+        y: 350
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: miscelania_127
+      rect:
+        serializedVersion: 2
+        x: 636
+        y: 351
+        width: 27
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: miscelania_128
+      rect:
+        serializedVersion: 2
+        x: 681
+        y: 353
+        width: 27
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: miscelania_129
+      rect:
+        serializedVersion: 2
+        x: 726
+        y: 352
+        width: 28
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: miscelania_130
+      rect:
+        serializedVersion: 2
+        x: 773
+        y: 350
+        width: 24
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: miscelania_131
+      rect:
+        serializedVersion: 2
+        x: 815
+        y: 349
+        width: 29
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: miscelania_132
+      rect:
+        serializedVersion: 2
+        x: 860
+        y: 348
+        width: 30
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: miscelania_133
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 300
+        width: 28
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: miscelania_134
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 300
+        width: 13
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: miscelania_135
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 300
+        width: 13
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: miscelania_136
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 314
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: miscelania_137
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 322
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: miscelania_138
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 302
+        width: 26
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: miscelania_139
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 322
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: miscelania_140
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 302
+        width: 21
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: miscelania_141
+      rect:
+        serializedVersion: 2
+        x: 367
+        y: 302
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: miscelania_142
+      rect:
+        serializedVersion: 2
+        x: 412
+        y: 302
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: miscelania_143
+      rect:
+        serializedVersion: 2
+        x: 457
+        y: 302
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: miscelania_144
+      rect:
+        serializedVersion: 2
+        x: 499
+        y: 302
+        width: 30
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: miscelania_145
+      rect:
+        serializedVersion: 2
+        x: 545
+        y: 300
+        width: 27
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: miscelania_146
+      rect:
+        serializedVersion: 2
+        x: 591
+        y: 300
+        width: 26
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: miscelania_147
+      rect:
+        serializedVersion: 2
+        x: 636
+        y: 300
+        width: 27
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: miscelania_148
+      rect:
+        serializedVersion: 2
+        x: 681
+        y: 304
+        width: 27
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: miscelania_149
+      rect:
+        serializedVersion: 2
+        x: 726
+        y: 303
+        width: 27
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: miscelania_150
+      rect:
+        serializedVersion: 2
+        x: 772
+        y: 302
+        width: 25
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: miscelania_151
+      rect:
+        serializedVersion: 2
+        x: 814
+        y: 301
+        width: 31
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: miscelania_152
+      rect:
+        serializedVersion: 2
+        x: 860
+        y: 301
+        width: 29
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: miscelania_153
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 304
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: miscelania_154
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 270
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: miscelania_155
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 254
+        width: 25
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: miscelania_156
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 255
+        width: 27
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: miscelania_157
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 252
+        width: 29
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: miscelania_158
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 252
+        width: 29
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: miscelania_159
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 252
+        width: 29
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: miscelania_160
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 252
+        width: 30
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: miscelania_161
+      rect:
+        serializedVersion: 2
+        x: 366
+        y: 256
+        width: 26
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: miscelania_162
+      rect:
+        serializedVersion: 2
+        x: 413
+        y: 256
+        width: 22
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: miscelania_163
+      rect:
+        serializedVersion: 2
+        x: 456
+        y: 253
+        width: 25
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: miscelania_164
+      rect:
+        serializedVersion: 2
+        x: 501
+        y: 253
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: miscelania_165
+      rect:
+        serializedVersion: 2
+        x: 547
+        y: 254
+        width: 26
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: miscelania_166
+      rect:
+        serializedVersion: 2
+        x: 591
+        y: 254
+        width: 26
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: miscelania_167
+      rect:
+        serializedVersion: 2
+        x: 642
+        y: 253
+        width: 15
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: miscelania_168
+      rect:
+        serializedVersion: 2
+        x: 681
+        y: 253
+        width: 27
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: miscelania_169
+      rect:
+        serializedVersion: 2
+        x: 726
+        y: 253
+        width: 28
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: miscelania_170
+      rect:
+        serializedVersion: 2
+        x: 771
+        y: 254
+        width: 28
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: miscelania_171
+      rect:
+        serializedVersion: 2
+        x: 816
+        y: 254
+        width: 28
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: miscelania_172
+      rect:
+        serializedVersion: 2
+        x: 861
+        y: 254
+        width: 28
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: miscelania_173
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 203
+        width: 14
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: miscelania_174
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 207
+        width: 27
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: miscelania_175
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 207
+        width: 28
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: miscelania_176
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 206
+        width: 25
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: miscelania_177
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 205
+        width: 25
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: miscelania_178
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 226
+        width: 25
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: miscelania_179
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 204
+        width: 29
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: miscelania_180
+      rect:
+        serializedVersion: 2
+        x: 366
+        y: 204
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: miscelania_181
+      rect:
+        serializedVersion: 2
+        x: 410
+        y: 208
+        width: 28
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: miscelania_182
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 197
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: miscelania_183
+      rect:
+        serializedVersion: 2
+        x: 494
+        y: 197
+        width: 38
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: miscelania_184
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 198
+        width: 37
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: miscelania_185
+      rect:
+        serializedVersion: 2
+        x: 586
+        y: 199
+        width: 36
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: miscelania_186
+      rect:
+        serializedVersion: 2
+        x: 630
+        y: 199
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: miscelania_187
+      rect:
+        serializedVersion: 2
+        x: 676
+        y: 198
+        width: 38
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: miscelania_188
+      rect:
+        serializedVersion: 2
+        x: 724
+        y: 197
+        width: 30
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: miscelania_189
+      rect:
+        serializedVersion: 2
+        x: 771
+        y: 202
+        width: 27
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: miscelania_190
+      rect:
+        serializedVersion: 2
+        x: 812
+        y: 197
+        width: 36
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: miscelania_191
+      rect:
+        serializedVersion: 2
+        x: 858
+        y: 200
+        width: 33
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: miscelania_192
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 155
+        width: 28
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: miscelania_193
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 155
+        width: 28
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: miscelania_194
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 155
+        width: 18
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: miscelania_195
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 157
+        width: 18
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: miscelania_196
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 157
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: miscelania_197
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 155
+        width: 26
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: miscelania_198
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 155
+        width: 29
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: miscelania_199
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 176
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: miscelania_200
+      rect:
+        serializedVersion: 2
+        x: 379
+        y: 178
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: miscelania_201
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 170
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: miscelania_202
+      rect:
+        serializedVersion: 2
+        x: 409
+        y: 157
+        width: 29
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: miscelania_203
+      rect:
+        serializedVersion: 2
+        x: 457
+        y: 157
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: miscelania_204
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 157
+        width: 27
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: miscelania_205
+      rect:
+        serializedVersion: 2
+        x: 591
+        y: 159
+        width: 26
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: miscelania_206
+      rect:
+        serializedVersion: 2
+        x: 634
+        y: 158
+        width: 30
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: miscelania_207
+      rect:
+        serializedVersion: 2
+        x: 682
+        y: 158
+        width: 24
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: miscelania_208
+      rect:
+        serializedVersion: 2
+        x: 772
+        y: 158
+        width: 25
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: miscelania_209
+      rect:
+        serializedVersion: 2
+        x: 822
+        y: 156
+        width: 15
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: miscelania_210
+      rect:
+        serializedVersion: 2
+        x: 864
+        y: 157
+        width: 22
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: miscelania_211
+      rect:
+        serializedVersion: 2
+        x: 365
+        y: 171
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: miscelania_212
+      rect:
+        serializedVersion: 2
+        x: 549
+        y: 159
+        width: 21
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: miscelania_213
+      rect:
+        serializedVersion: 2
+        x: 730
+        y: 159
+        width: 19
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: miscelania_214
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 109
+        width: 22
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: miscelania_215
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 108
+        width: 25
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: miscelania_216
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 108
+        width: 23
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: miscelania_217
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 107
+        width: 29
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: miscelania_218
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 107
+        width: 18
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: miscelania_219
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 108
+        width: 24
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: miscelania_220
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 111
+        width: 23
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: miscelania_221
+      rect:
+        serializedVersion: 2
+        x: 366
+        y: 106
+        width: 25
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: miscelania_222
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 106
+        width: 15
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: miscelania_223
+      rect:
+        serializedVersion: 2
+        x: 456
+        y: 110
+        width: 26
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: miscelania_224
+      rect:
+        serializedVersion: 2
+        x: 501
+        y: 110
+        width: 26
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: miscelania_225
+      rect:
+        serializedVersion: 2
+        x: 546
+        y: 110
+        width: 26
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: miscelania_226
+      rect:
+        serializedVersion: 2
+        x: 591
+        y: 110
+        width: 26
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: miscelania_227
+      rect:
+        serializedVersion: 2
+        x: 639
+        y: 108
+        width: 21
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: miscelania_228
+      rect:
+        serializedVersion: 2
+        x: 682
+        y: 109
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: miscelania_229
+      rect:
+        serializedVersion: 2
+        x: 723
+        y: 106
+        width: 32
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: miscelania_230
+      rect:
+        serializedVersion: 2
+        x: 770
+        y: 108
+        width: 29
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: miscelania_231
+      rect:
+        serializedVersion: 2
+        x: 816
+        y: 108
+        width: 27
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: miscelania_232
+      rect:
+        serializedVersion: 2
+        x: 859
+        y: 109
+        width: 31
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: miscelania_233
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 57
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: miscelania_234
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 60
+        width: 29
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: miscelania_235
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 59
+        width: 27
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: miscelania_236
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 59
+        width: 29
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: miscelania_237
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 57
+        width: 29
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: miscelania_238
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 61
+        width: 26
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: miscelania_239
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 58
+        width: 25
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: miscelania_240
+      rect:
+        serializedVersion: 2
+        x: 367
+        y: 61
+        width: 24
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: miscelania_241
+      rect:
+        serializedVersion: 2
+        x: 410
+        y: 59
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: miscelania_242
+      rect:
+        serializedVersion: 2
+        x: 454
+        y: 58
+        width: 31
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: miscelania_243
+      rect:
+        serializedVersion: 2
+        x: 499
+        y: 58
+        width: 28
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: miscelania_244
+      rect:
+        serializedVersion: 2
+        x: 545
+        y: 60
+        width: 28
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: miscelania_245
+      rect:
+        serializedVersion: 2
+        x: 591
+        y: 60
+        width: 26
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: miscelania_246
+      rect:
+        serializedVersion: 2
+        x: 638
+        y: 61
+        width: 23
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: miscelania_247
+      rect:
+        serializedVersion: 2
+        x: 683
+        y: 59
+        width: 22
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: miscelania_248
+      rect:
+        serializedVersion: 2
+        x: 733
+        y: 58
+        width: 14
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: miscelania_249
+      rect:
+        serializedVersion: 2
+        x: 775
+        y: 58
+        width: 19
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: miscelania_250
+      rect:
+        serializedVersion: 2
+        x: 820
+        y: 65
+        width: 19
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: miscelania_251
+      rect:
+        serializedVersion: 2
+        x: 861
+        y: 58
+        width: 28
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: miscelania_252
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 9
+        width: 27
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: miscelania_253
+      rect:
+        serializedVersion: 2
+        x: 867
+        y: 37
+        width: 13
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: miscelania_254
+      rect:
+        serializedVersion: 2
+        x: 881
+        y: 37
+        width: 4
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: miscelania_255
+      rect:
+        serializedVersion: 2
+        x: 886
+        y: 38
+        width: 14
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: miscelania_256
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 10
+        width: 28
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: miscelania_257
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 9
+        width: 21
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: miscelania_258
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 11
+        width: 25
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: miscelania_259
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 9
+        width: 26
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: miscelania_260
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 9
+        width: 29
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: miscelania_261
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 13
+        width: 21
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: miscelania_262
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 14
+        width: 21
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: miscelania_263
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 11
+        width: 16
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: miscelania_264
+      rect:
+        serializedVersion: 2
+        x: 457
+        y: 10
+        width: 24
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: miscelania_265
+      rect:
+        serializedVersion: 2
+        x: 501
+        y: 9
+        width: 26
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: miscelania_266
+      rect:
+        serializedVersion: 2
+        x: 546
+        y: 12
+        width: 26
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: miscelania_267
+      rect:
+        serializedVersion: 2
+        x: 595
+        y: 12
+        width: 18
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: miscelania_268
+      rect:
+        serializedVersion: 2
+        x: 636
+        y: 14
+        width: 27
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: miscelania_269
+      rect:
+        serializedVersion: 2
+        x: 681
+        y: 12
+        width: 27
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: miscelania_270
+      rect:
+        serializedVersion: 2
+        x: 860
+        y: 28
+        width: 13
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: miscelania_271
+      rect:
+        serializedVersion: 2
+        x: 874
+        y: 28
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: miscelania_272
+      rect:
+        serializedVersion: 2
+        x: 884
+        y: 28
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: miscelania_273
+      rect:
+        serializedVersion: 2
+        x: 892
+        y: 27
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: miscelania_274
+      rect:
+        serializedVersion: 2
+        x: 848
+        y: 18
+        width: 15
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: miscelania_275
+      rect:
+        serializedVersion: 2
+        x: 864
+        y: 18
+        width: 4
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: miscelania_276
+      rect:
+        serializedVersion: 2
+        x: 869
+        y: 18
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: miscelania_277
+      rect:
+        serializedVersion: 2
+        x: 877
+        y: 18
+        width: 16
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: miscelania_278
+      rect:
+        serializedVersion: 2
+        x: 895
+        y: 18
+        width: 5
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: miscelania_279
+      rect:
+        serializedVersion: 2
+        x: 878
+        y: 8
+        width: 12
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: miscelania_280
+      rect:
+        serializedVersion: 2
+        x: 892
+        y: 8
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

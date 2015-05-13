@@ -1,0 +1,520 @@
+fileFormatVersion: 2
+guid: 96b0c9f25d7667f458346631ea411232
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: xtsF7Gj(alpha)_0
+    21300002: xtsF7Gj(alpha)_1
+    21300004: xtsF7Gj(alpha)_2
+    21300006: xtsF7Gj(alpha)_3
+    21300008: xtsF7Gj(alpha)_4
+    21300010: xtsF7Gj(alpha)_5
+    21300012: xtsF7Gj(alpha)_6
+    21300014: xtsF7Gj(alpha)_7
+    21300016: xtsF7Gj(alpha)_8
+    21300018: xtsF7Gj(alpha)_9
+    21300020: xtsF7Gj(alpha)_10
+    21300022: xtsF7Gj(alpha)_11
+    21300024: xtsF7Gj(alpha)_12
+    21300026: xtsF7Gj(alpha)_13
+    21300028: xtsF7Gj(alpha)_14
+    21300030: xtsF7Gj(alpha)_15
+    21300032: xtsF7Gj(alpha)_16
+    21300034: xtsF7Gj(alpha)_17
+    21300036: xtsF7Gj(alpha)_18
+    21300038: xtsF7Gj(alpha)_19
+    21300040: xtsF7Gj(alpha)_20
+    21300042: xtsF7Gj(alpha)_21
+    21300044: xtsF7Gj(alpha)_22
+    21300046: xtsF7Gj(alpha)_23
+    21300048: xtsF7Gj(alpha)_24
+    21300050: xtsF7Gj(alpha)_25
+    21300052: xtsF7Gj(alpha)_26
+    21300054: xtsF7Gj(alpha)_27
+    21300056: xtsF7Gj(alpha)_28
+    21300058: xtsF7Gj(alpha)_29
+    21300060: xtsF7Gj(alpha)_30
+    21300062: xtsF7Gj(alpha)_31
+    21300064: xtsF7Gj(alpha)_32
+    21300066: xtsF7Gj(alpha)_33
+    21300068: xtsF7Gj(alpha)_34
+    21300070: xtsF7Gj(alpha)_35
+    21300072: xtsF7Gj(alpha)_36
+    21300074: xtsF7Gj(alpha)_37
+    21300076: xtsF7Gj(alpha)_38
+    21300078: xtsF7Gj(alpha)_39
+    21300080: xtsF7Gj(alpha)_40
+    21300082: xtsF7Gj(alpha)_41
+    21300084: xtsF7Gj(alpha)_42
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 1024
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: xtsF7Gj(alpha)_0
+      rect:
+        serializedVersion: 2
+        x: 597
+        y: 443
+        width: 46
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: xtsF7Gj(alpha)_1
+      rect:
+        serializedVersion: 2
+        x: 664
+        y: 443
+        width: 45
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: xtsF7Gj(alpha)_2
+      rect:
+        serializedVersion: 2
+        x: 726
+        y: 443
+        width: 46
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: xtsF7Gj(alpha)_3
+      rect:
+        serializedVersion: 2
+        x: 789
+        y: 443
+        width: 45
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: xtsF7Gj(alpha)_4
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 342
+        width: 42
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: xtsF7Gj(alpha)_5
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 342
+        width: 45
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: xtsF7Gj(alpha)_6
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 342
+        width: 45
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: xtsF7Gj(alpha)_7
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 342
+        width: 45
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: xtsF7Gj(alpha)_8
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 342
+        width: 49
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: xtsF7Gj(alpha)_9
+      rect:
+        serializedVersion: 2
+        x: 489
+        y: 346
+        width: 70
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: xtsF7Gj(alpha)_10
+      rect:
+        serializedVersion: 2
+        x: 594
+        y: 342
+        width: 45
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: xtsF7Gj(alpha)_11
+      rect:
+        serializedVersion: 2
+        x: 657
+        y: 342
+        width: 45
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: xtsF7Gj(alpha)_12
+      rect:
+        serializedVersion: 2
+        x: 719
+        y: 342
+        width: 46
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: xtsF7Gj(alpha)_13
+      rect:
+        serializedVersion: 2
+        x: 786
+        y: 342
+        width: 45
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: xtsF7Gj(alpha)_14
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 220
+        width: 70
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: xtsF7Gj(alpha)_15
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 220
+        width: 70
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: xtsF7Gj(alpha)_16
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 220
+        width: 63
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: xtsF7Gj(alpha)_17
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 220
+        width: 52
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: xtsF7Gj(alpha)_18
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 217
+        width: 66
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: xtsF7Gj(alpha)_19
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 217
+        width: 73
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: xtsF7Gj(alpha)_20
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 220
+        width: 69
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: xtsF7Gj(alpha)_21
+      rect:
+        serializedVersion: 2
+        x: 583
+        y: 217
+        width: 70
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: xtsF7Gj(alpha)_22
+      rect:
+        serializedVersion: 2
+        x: 657
+        y: 220
+        width: 62
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: xtsF7Gj(alpha)_23
+      rect:
+        serializedVersion: 2
+        x: 754
+        y: 220
+        width: 56
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: xtsF7Gj(alpha)_24
+      rect:
+        serializedVersion: 2
+        x: 817
+        y: 220
+        width: 80
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: xtsF7Gj(alpha)_25
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 130
+        width: 74
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: xtsF7Gj(alpha)_26
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 130
+        width: 62
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: xtsF7Gj(alpha)_27
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 130
+        width: 52
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: xtsF7Gj(alpha)_28
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 126
+        width: 74
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: xtsF7Gj(alpha)_29
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 130
+        width: 73
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: xtsF7Gj(alpha)_30
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 126
+        width: 76
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: xtsF7Gj(alpha)_31
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 126
+        width: 70
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: xtsF7Gj(alpha)_32
+      rect:
+        serializedVersion: 2
+        x: 590
+        y: 130
+        width: 46
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: xtsF7Gj(alpha)_33
+      rect:
+        serializedVersion: 2
+        x: 646
+        y: 130
+        width: 66
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: xtsF7Gj(alpha)_34
+      rect:
+        serializedVersion: 2
+        x: 723
+        y: 130
+        width: 83
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: xtsF7Gj(alpha)_35
+      rect:
+        serializedVersion: 2
+        x: 813
+        y: 130
+        width: 63
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: xtsF7Gj(alpha)_36
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 15
+        width: 56
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: xtsF7Gj(alpha)_37
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 15
+        width: 63
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: xtsF7Gj(alpha)_38
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 15
+        width: 63
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: xtsF7Gj(alpha)_39
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 15
+        width: 70
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: xtsF7Gj(alpha)_40
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 15
+        width: 66
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: xtsF7Gj(alpha)_41
+      rect:
+        serializedVersion: 2
+        x: 409
+        y: 15
+        width: 63
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: xtsF7Gj(alpha)_42
+      rect:
+        serializedVersion: 2
+        x: 493
+        y: 15
+        width: 66
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 

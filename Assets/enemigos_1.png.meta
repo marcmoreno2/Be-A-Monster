@@ -1,0 +1,968 @@
+fileFormatVersion: 2
+guid: a540215f481875b4a9dbde697e767ca1
+timeCreated: 1429716573
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: enemigos_1_0
+    21300002: enemigos_1_1
+    21300004: enemigos_1_2
+    21300006: enemigos_1_3
+    21300008: enemigos_1_4
+    21300010: enemigos_1_5
+    21300012: enemigos_1_6
+    21300014: enemigos_1_7
+    21300016: enemigos_1_8
+    21300018: enemigos_1_9
+    21300020: enemigos_1_10
+    21300022: enemigos_1_11
+    21300024: enemigos_1_12
+    21300026: enemigos_1_13
+    21300028: enemigos_1_14
+    21300030: enemigos_1_15
+    21300032: enemigos_1_16
+    21300034: enemigos_1_17
+    21300036: enemigos_1_18
+    21300038: enemigos_1_19
+    21300040: enemigos_1_20
+    21300042: enemigos_1_21
+    21300044: enemigos_1_22
+    21300046: enemigos_1_23
+    21300048: enemigos_1_24
+    21300050: enemigos_1_25
+    21300052: enemigos_1_26
+    21300054: enemigos_1_27
+    21300056: enemigos_1_28
+    21300058: enemigos_1_29
+    21300060: enemigos_1_30
+    21300062: enemigos_1_31
+    21300064: enemigos_1_32
+    21300066: enemigos_1_33
+    21300068: enemigos_1_34
+    21300070: enemigos_1_35
+    21300072: enemigos_1_36
+    21300074: enemigos_1_37
+    21300076: enemigos_1_38
+    21300078: enemigos_1_39
+    21300080: enemigos_1_40
+    21300082: enemigos_1_41
+    21300084: enemigos_1_42
+    21300086: enemigos_1_43
+    21300088: enemigos_1_44
+    21300090: enemigos_1_45
+    21300092: enemigos_1_46
+    21300094: enemigos_1_47
+    21300096: enemigos_1_48
+    21300098: enemigos_1_49
+    21300100: enemigos_1_50
+    21300102: enemigos_1_51
+    21300104: enemigos_1_52
+    21300106: enemigos_1_53
+    21300108: enemigos_1_54
+    21300110: enemigos_1_55
+    21300112: enemigos_1_56
+    21300114: enemigos_1_57
+    21300116: enemigos_1_58
+    21300118: enemigos_1_59
+    21300120: enemigos_1_60
+    21300122: enemigos_1_61
+    21300124: enemigos_1_62
+    21300126: enemigos_1_63
+    21300128: enemigos_1_64
+    21300130: enemigos_1_65
+    21300132: enemigos_1_66
+    21300134: enemigos_1_67
+    21300136: enemigos_1_68
+    21300138: enemigos_1_69
+    21300140: enemigos_1_70
+    21300142: enemigos_1_71
+    21300144: enemigos_1_72
+    21300146: enemigos_1_73
+    21300148: enemigos_1_74
+    21300150: enemigos_1_75
+    21300152: enemigos_1_76
+    21300154: enemigos_1_77
+    21300156: enemigos_1_78
+    21300158: enemigos_1_79
+    21300160: enemigos_1_80
+    21300162: enemigos_1_81
+    21300164: enemigos_1_82
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 8192
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: enemigos_1_0
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 355
+        width: 23
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: enemigos_1_1
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 355
+        width: 27
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: enemigos_1_2
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 354
+        width: 23
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: enemigos_1_3
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 353
+        width: 23
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: enemigos_1_4
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 353
+        width: 21
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: enemigos_1_5
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 352
+        width: 23
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: enemigos_1_6
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 351
+        width: 27
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: enemigos_1_7
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 350
+        width: 31
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: enemigos_1_8
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 350
+        width: 36
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: enemigos_1_9
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 351
+        width: 23
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: enemigos_1_10
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 349
+        width: 23
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: enemigos_1_11
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 352
+        width: 24
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: enemigos_1_12
+      rect:
+        serializedVersion: 2
+        x: 379
+        y: 350
+        width: 25
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: enemigos_1_13
+      rect:
+        serializedVersion: 2
+        x: 415
+        y: 351
+        width: 29
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: enemigos_1_14
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 315
+        width: 39
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: enemigos_1_15
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 313
+        width: 41
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: enemigos_1_16
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 313
+        width: 42
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: enemigos_1_17
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 312
+        width: 37
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: enemigos_1_18
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 310
+        width: 37
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: enemigos_1_19
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 309
+        width: 39
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: enemigos_1_20
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 315
+        width: 22
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: enemigos_1_21
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 313
+        width: 27
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: enemigos_1_22
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 317
+        width: 30
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: enemigos_1_23
+      rect:
+        serializedVersion: 2
+        x: 376
+        y: 316
+        width: 35
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: enemigos_1_24
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 258
+        width: 39
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: enemigos_1_25
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 255
+        width: 35
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: enemigos_1_26
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 261
+        width: 39
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: enemigos_1_27
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 263
+        width: 40
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: enemigos_1_28
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 264
+        width: 36
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: enemigos_1_29
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 264
+        width: 19
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: enemigos_1_30
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 264
+        width: 39
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: enemigos_1_31
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 263
+        width: 41
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: enemigos_1_32
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 263
+        width: 42
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: enemigos_1_33
+      rect:
+        serializedVersion: 2
+        x: 393
+        y: 260
+        width: 39
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: enemigos_1_34
+      rect:
+        serializedVersion: 2
+        x: 433
+        y: 260
+        width: 39
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: enemigos_1_35
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 223
+        width: 43
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: enemigos_1_36
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 226
+        width: 43
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: enemigos_1_37
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 224
+        width: 42
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: enemigos_1_38
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 223
+        width: 43
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: enemigos_1_39
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 225
+        width: 43
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: enemigos_1_40
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 226
+        width: 41
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: enemigos_1_41
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 222
+        width: 44
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: enemigos_1_42
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 224
+        width: 43
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: enemigos_1_43
+      rect:
+        serializedVersion: 2
+        x: 371
+        y: 224
+        width: 43
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: enemigos_1_44
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 182
+        width: 43
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: enemigos_1_45
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 184
+        width: 43
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: enemigos_1_46
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 187
+        width: 38
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: enemigos_1_47
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 184
+        width: 43
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: enemigos_1_48
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 184
+        width: 40
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: enemigos_1_49
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 179
+        width: 40
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: enemigos_1_50
+      rect:
+        serializedVersion: 2
+        x: 282
+        y: 177
+        width: 40
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: enemigos_1_51
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 179
+        width: 38
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: enemigos_1_52
+      rect:
+        serializedVersion: 2
+        x: 361
+        y: 178
+        width: 38
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: enemigos_1_53
+      rect:
+        serializedVersion: 2
+        x: 413
+        y: 176
+        width: 40
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: enemigos_1_54
+      rect:
+        serializedVersion: 2
+        x: 460
+        y: 176
+        width: 47
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: enemigos_1_55
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 131
+        width: 38
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: enemigos_1_56
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 124
+        width: 37
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: enemigos_1_57
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 167
+        width: 30
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: enemigos_1_58
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 163
+        width: 31
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: enemigos_1_59
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 127
+        width: 39
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: enemigos_1_60
+      rect:
+        serializedVersion: 2
+        x: 376
+        y: 133
+        width: 36
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: enemigos_1_61
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 147
+        width: 10
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: enemigos_1_62
+      rect:
+        serializedVersion: 2
+        x: 429
+        y: 146
+        width: 16
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: enemigos_1_63
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 125
+        width: 37
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: enemigos_1_64
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 127
+        width: 38
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: enemigos_1_65
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 141
+        width: 54
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: enemigos_1_66
+      rect:
+        serializedVersion: 2
+        x: 346
+        y: 130
+        width: 25
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: enemigos_1_67
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 91
+        width: 30
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: enemigos_1_68
+      rect:
+        serializedVersion: 2
+        x: 421
+        y: 128
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: enemigos_1_69
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 91
+        width: 29
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: enemigos_1_70
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 89
+        width: 20
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: enemigos_1_71
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 92
+        width: 22
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: enemigos_1_72
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 91
+        width: 16
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: enemigos_1_73
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 91
+        width: 14
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: enemigos_1_74
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 93
+        width: 16
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: enemigos_1_75
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 85
+        width: 32
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: enemigos_1_76
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 93
+        width: 23
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: enemigos_1_77
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 42
+        width: 45
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: enemigos_1_78
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 44
+        width: 30
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: enemigos_1_79
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 67
+        width: 18
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: enemigos_1_80
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 40
+        width: 40
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: enemigos_1_81
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 44
+        width: 36
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: enemigos_1_82
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 45
+        width: 20
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

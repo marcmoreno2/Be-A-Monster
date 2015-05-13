@@ -1,0 +1,737 @@
+fileFormatVersion: 2
+guid: 13e3d19b87a607c4d9ed8eca936d6432
+timeCreated: 1431028602
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: guardia_0
+    21300002: guardia_1
+    21300004: guardia_2
+    21300006: guardia_3
+    21300008: guardia_4
+    21300010: guardia_5
+    21300012: guardia_6
+    21300014: guardia_7
+    21300016: guardia_8
+    21300018: guardia_9
+    21300020: guardia_10
+    21300022: guardia_11
+    21300024: guardia_12
+    21300026: guardia_13
+    21300028: guardia_14
+    21300030: guardia_15
+    21300032: guardia_16
+    21300034: guardia_17
+    21300036: guardia_18
+    21300038: guardia_19
+    21300040: guardia_20
+    21300042: guardia_21
+    21300044: guardia_22
+    21300046: guardia_23
+    21300048: guardia_24
+    21300050: guardia_25
+    21300052: guardia_26
+    21300054: guardia_27
+    21300056: guardia_28
+    21300058: guardia_29
+    21300060: guardia_30
+    21300062: guardia_31
+    21300064: guardia_32
+    21300066: guardia_35
+    21300068: guardia_36
+    21300070: guardia_37
+    21300072: guardia_38
+    21300074: guardia_39
+    21300076: guardia_40
+    21300078: guardia_41
+    21300080: guardia_47
+    21300082: guardia_49
+    21300084: guardia_51
+    21300086: guardia_52
+    21300088: guardia_56
+    21300090: guardia_57
+    21300092: guardia_58
+    21300094: guardia_59
+    21300096: guardia_60
+    21300098: guardia_61
+    21300100: guardia_62
+    21300102: guardia_63
+    21300104: guardia_64
+    21300106: guardia_65
+    21300108: guardia_66
+    21300110: guardia_67
+    21300112: guardia_68
+    21300114: guardia_33
+    21300116: guardia_34
+    21300118: guardia_42
+    21300120: guardia_43
+    21300122: guardia_44
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 8192
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: guardia_0
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 909
+        width: 131
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: guardia_1
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 909
+        width: 130
+        height: 111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: guardia_2
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 909
+        width: 129
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: guardia_3
+      rect:
+        serializedVersion: 2
+        x: 438
+        y: 909
+        width: 130
+        height: 111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: guardia_4
+      rect:
+        serializedVersion: 2
+        x: 586
+        y: 909
+        width: 131
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: guardia_5
+      rect:
+        serializedVersion: 2
+        x: 738
+        y: 909
+        width: 132
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: guardia_6
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 779
+        width: 130
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: guardia_7
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 779
+        width: 127
+        height: 111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: guardia_8
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 778
+        width: 124
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: guardia_9
+      rect:
+        serializedVersion: 2
+        x: 423
+        y: 778
+        width: 123
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: guardia_10
+      rect:
+        serializedVersion: 2
+        x: 562
+        y: 778
+        width: 126
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: guardia_11
+      rect:
+        serializedVersion: 2
+        x: 699
+        y: 778
+        width: 129
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: guardia_12
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 631
+        width: 154
+        height: 119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: guardia_13
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 681
+        width: 24
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: guardia_14
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 681
+        width: 28
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: guardia_15
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 684
+        width: 9
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: guardia_16
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 681
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: guardia_17
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 684
+        width: 33
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: guardia_18
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 672
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: guardia_19
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 665
+        width: 33
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: guardia_20
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 665
+        width: 47
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: guardia_21
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 665
+        width: 4
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: guardia_22
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 665
+        width: 7
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: guardia_23
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 665
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: guardia_24
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 665
+        width: 28
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: guardia_25
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 644
+        width: 38
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: guardia_26
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 429
+        width: 160
+        height: 146
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: guardia_27
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 429
+        width: 167
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: guardia_28
+      rect:
+        serializedVersion: 2
+        x: 378
+        y: 429
+        width: 175
+        height: 172
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: guardia_29
+      rect:
+        serializedVersion: 2
+        x: 585
+        y: 428
+        width: 171
+        height: 181
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: guardia_30
+      rect:
+        serializedVersion: 2
+        x: 787
+        y: 429
+        width: 183
+        height: 167
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: guardia_31
+      rect:
+        serializedVersion: 2
+        x: 999
+        y: 429
+        width: 173
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: guardia_32
+      rect:
+        serializedVersion: 2
+        x: 1198
+        y: 429
+        width: 167
+        height: 145
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: guardia_35
+      rect:
+        serializedVersion: 2
+        x: 1593
+        y: 429
+        width: 160
+        height: 145
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: guardia_36
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 269
+        width: 132
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: guardia_37
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 269
+        width: 134
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: guardia_38
+      rect:
+        serializedVersion: 2
+        x: 316
+        y: 269
+        width: 139
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: guardia_39
+      rect:
+        serializedVersion: 2
+        x: 482
+        y: 269
+        width: 136
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: guardia_40
+      rect:
+        serializedVersion: 2
+        x: 643
+        y: 269
+        width: 140
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: guardia_41
+      rect:
+        serializedVersion: 2
+        x: 806
+        y: 269
+        width: 139
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: guardia_47
+      rect:
+        serializedVersion: 2
+        x: 1790
+        y: 269
+        width: 132
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: guardia_49
+      rect:
+        serializedVersion: 2
+        x: 1459
+        y: 359
+        width: 5
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: guardia_51
+      rect:
+        serializedVersion: 2
+        x: 1646
+        y: 350
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: guardia_52
+      rect:
+        serializedVersion: 2
+        x: 1030
+        y: 316
+        width: 5
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: guardia_56
+      rect:
+        serializedVersion: 2
+        x: 1611
+        y: 326
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: guardia_57
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 160
+        width: 77
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: guardia_58
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 160
+        width: 85
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: guardia_59
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 165
+        width: 52
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: guardia_60
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 176
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: guardia_61
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 192
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: guardia_62
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 15
+        width: 142
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: guardia_63
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 15
+        width: 142
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: guardia_64
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 15
+        width: 138
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: guardia_65
+      rect:
+        serializedVersion: 2
+        x: 474
+        y: 15
+        width: 141
+        height: 119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: guardia_66
+      rect:
+        serializedVersion: 2
+        x: 634
+        y: 15
+        width: 149
+        height: 119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: guardia_67
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 15
+        width: 158
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: guardia_68
+      rect:
+        serializedVersion: 2
+        x: 976
+        y: 15
+        width: 168
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: guardia_33
+      rect:
+        serializedVersion: 2
+        x: 1397
+        y: 430
+        width: 161
+        height: 144
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: guardia_34
+      rect:
+        serializedVersion: 2
+        x: 959
+        y: 265
+        width: 204
+        height: 135
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: guardia_42
+      rect:
+        serializedVersion: 2
+        x: 1169
+        y: 266
+        width: 202
+        height: 133
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: guardia_43
+      rect:
+        serializedVersion: 2
+        x: 1379
+        y: 265
+        width: 200
+        height: 135
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: guardia_44
+      rect:
+        serializedVersion: 2
+        x: 1587
+        y: 264
+        width: 182
+        height: 139
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
