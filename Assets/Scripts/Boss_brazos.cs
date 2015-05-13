@@ -3,7 +3,7 @@ using System.Collections;
 
 public class Boss_brazos : MonoBehaviour {
 
-	public int vida_avatar=100;
+
 	// Use this for initialization
 	void Start () {
 	
@@ -14,12 +14,13 @@ public class Boss_brazos : MonoBehaviour {
 	
 	}
 
-	void OnTriggerEnter2D(Collider2D other)
+	/*void OnTriggerEnter2D(Collider2D other)
 	{
 		if (other.tag == "Player")
 		{
 			Debug.Log ("DAÑO");
-			vida_avatar--;
+
+
 		}
-	}
+	}*/
 }
