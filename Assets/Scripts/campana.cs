@@ -16,8 +16,10 @@ public class campana : MonoBehaviour {
 	{
 		if (other.tag == "Slim") 
 		{
-			Debug.Log ("tocado");
+			//Debug.Log ("tocado");
 			ani.SetBool("tocado",true);
+			SystemVar.SystemVar.guardias=true;
+
 		}
 	}
 }

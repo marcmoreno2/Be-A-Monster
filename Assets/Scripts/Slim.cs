@@ -95,11 +95,15 @@ using System.Collections;
 		//	Debug.Log ("Hit1");	
 			if (other.tag == "Player") {
 			//	Debug.Log ("Hit2");	
-				if (name == "Casa1")
+				/*if (name == "Casa1")
 					SystemVar.SystemVar.contCasa1--;
 				else if (name == "Casa2")
-					SystemVar.SystemVar.contCasa2--;
-				
+					SystemVar.SystemVar.contCasa2--;*/
+				GameObject casa = GameObject.Find(name) as GameObject;
+				Casa _C = casa.GetComponent("Casa") as Casa;
+				_C.spawn = true;
+				//Casa _C = GameObject.Find(name).GetComponent("Casa") as Casa;
+
 				float rand = Random.Range (0.0f, 100.0f);
 				if (rand <= 25) {
 					GameObject p = Instantiate (PocionS, this.transform.position, this.transform.rotation) as GameObject;
