@@ -18,6 +18,7 @@ public class Boss_brazos : MonoBehaviour {
 	{
 		if (other.tag == "Player")
 		{
+			Debug.Log ("DAÑO");
 			vida_avatar--;
 		}
 	}
