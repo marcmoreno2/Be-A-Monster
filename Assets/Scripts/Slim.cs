@@ -86,13 +86,15 @@ using System.Collections;
 		
 		
 		void OnTriggerEnter2D(Collider2D other)
-	{if (other.tag == "Player") {
+	{
+		if (other.tag == "Player") 
+		{
 			Destroy(this.gameObject);
-			Debug.Log ("TocaPlayer");	
+			//Debug.Log ("TocaPlayer");	
 		}
-			Debug.Log ("Hit1");	
+		//	Debug.Log ("Hit1");	
 			if (other.tag == "Player") {
-				Debug.Log ("Hit2");	
+			//	Debug.Log ("Hit2");	
 				if (name == "Casa1")
 					SystemVar.SystemVar.contCasa1--;
 				else if (name == "Casa2")
@@ -118,7 +120,10 @@ using System.Collections;
 				transform.localScale = aux;
 				
 			}
-		
-		}
-		
+			if (other.tag == "campana")
+			{
+			other.GetComponent<Animator>() .SetBool("tocado",true);
+			}
 	}
+		
+}
