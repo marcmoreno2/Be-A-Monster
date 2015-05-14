@@ -28,7 +28,7 @@ public class Player : MonoBehaviour {
 			//grounded1 = Physics2D.Raycast(this.transform.position - new Vector3(-0.2f,0f,0f), new Vector2(0f, -1f), 0.8f, layer_ground);
 			//grounded = Physics2D.Raycast(this.transform.position, new Vector2(0f, -1f), 0.8f, layer_ground);
 			//grounded3 = Physics2D.Raycast(this.transform.position - new Vector3(0.2f,0f,0f), new Vector2(0f, -1f), 0.8f, layer_ground);
-			Physics2D.IgnoreLayerCollision (9, 10);
+			//Physics2D.IgnoreLayerCollision (9, 10);
 			if (Input.GetKey (KeyCode.LeftShift)) {
 				running = true;
 			} else
