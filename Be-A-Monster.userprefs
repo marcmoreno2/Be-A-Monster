@@ -1,13 +1,16 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\Slim.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\campana.cs">
     <Files>
-      <File FileName="Assets\Scripts\Player.cs" Line="165" Column="2" />
+      <File FileName="Assets\Scripts\Guardia.cs" Line="33" Column="3" />
+      <File FileName="Assets\Scripts\Slim.cs" Line="37" Column="4" />
+      <File FileName="Assets\Scripts\Player.cs" Line="1" Column="1" />
       <File FileName="Assets\Scripts\Boss_brazos.cs" Line="1" Column="1" />
       <File FileName="Assets\Scripts\Boss.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\Slim.cs" Line="35" Column="4" />
       <File FileName="Assets\Scripts\ParallaxNubes.cs" Line="1" Column="1" />
       <File FileName="Assets\Scripts\Casa.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\campana.cs" Line="22" Column="12" />
+      <File FileName="Assets\Scripts\creaGuardias.cs" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
