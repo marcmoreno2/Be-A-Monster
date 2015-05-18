@@ -15,6 +15,7 @@ using System.Collections;
 		public float fuerzaDrop;
 		public float vel=-3;
 		public string name;
+		public bool toc = false;
 		// Use this for initialization
 		void Start ()
 		{
@@ -30,9 +31,10 @@ using System.Collections;
 			RayCasting ();
 			Behaviours ();
 			Campana ();
+		if(!toc)
 			transform.Translate (vel*Time.deltaTime,0.0f,0.0f);
-			Physics2D.IgnoreLayerCollision (10, 10);
-			Physics2D.IgnoreLayerCollision (10, 12);
+			//Physics2D.IgnoreLayerCollision (10, 10);
+			//Physics2D.IgnoreLayerCollision (10, 12);
 			
 			
 		}
@@ -117,7 +119,7 @@ using System.Collections;
 				}
 				Destroy (this.gameObject);
 			}
-			if (other.tag == "rebote") {
+			if (other.tag == "rebote" && !campana) {
 				vel = -vel;
 				Vector3 aux = transform.localScale;
 				aux.x *= -1;
@@ -126,6 +128,7 @@ using System.Collections;
 			}
 			if (other.tag == "campana")
 			{
+			toc = true;
 			other.GetComponent<Animator>() .SetBool("tocado",true);
 			}
 	}
