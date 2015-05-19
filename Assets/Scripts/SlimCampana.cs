@@ -12,8 +12,9 @@ public class SlimCampana : MonoBehaviour {
 	public bool alerta = false;
 	public bool campana =false;
 	public GameObject bocadillo,PocionS,Hamburguesa,Pollo;
-	public float fuerzaDrop;
+	public float fuerzaDrop, vida;
 	public float vel=0;
+	public bool toc = false;
 	
 	// Use this for initialization
 	void Start ()
@@ -33,6 +34,10 @@ public class SlimCampana : MonoBehaviour {
 		transform.Translate (vel*Time.deltaTime,0.0f,0.0f);
 		Physics2D.IgnoreLayerCollision (10, 10);
 		Physics2D.IgnoreLayerCollision (10, 9);
+		if (!toc)
+			transform.Translate (vel * Time.deltaTime, 0.0f, 0.0f);
+		else
+			vel = 0;
 		
 	}
 	
@@ -64,7 +69,7 @@ public class SlimCampana : MonoBehaviour {
 		if (alerta == true) {
 			bocadillo.SetActive (true);
 			campana=true;
-			vel=7;
+			vel=4;
 			if(vel>0)
 			{
 
@@ -120,6 +125,13 @@ public class SlimCampana : MonoBehaviour {
 			transform.localScale = aux;
 			
 		}
+		if (other.tag == "campana")
+		{
+			toc = true;
+			other.GetComponent<Animator>() .SetBool("tocado",true);
+		}
+		if (other.tag == "Arma player")
+			vida -= SystemVar.SystemVar.playerAtack;
 	}
 	
 }
