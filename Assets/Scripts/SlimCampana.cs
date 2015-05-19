@@ -86,7 +86,7 @@ public class SlimCampana : MonoBehaviour {
 	void OnTriggerEnter2D(Collider2D other)
 	{
 		
-		if (other.tag == "Estrella")
+		if (other.tag == "Arma player")
 		{
 
 			if(name == "Casa1")
@@ -110,7 +110,7 @@ public class SlimCampana : MonoBehaviour {
 				GameObject p = Instantiate(Pollo, this.transform.position, this.transform.rotation) as GameObject;
 				p.GetComponent<Rigidbody2D>().AddForce(new Vector2(50f,fuerzaDrop));
 			}
-			Destroy (this.gameObject);
+			Destroy (gameObject);
 		}
 		if (other.tag == "rebote") 
 		{

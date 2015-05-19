@@ -9,7 +9,8 @@ public class Player : MonoBehaviour {
 	private int dir;
 	public GameObject Estrella;
 	public LayerMask layer_ground;
-	public bool grounded, running, faceright = false, attack, agarra;
+	public bool grounded, running, faceright = true, attack, agarra;
+	public float atacVal;
 	private Rigidbody2D rigbod;
 
 	// Use this for initialization
@@ -96,6 +97,7 @@ public class Player : MonoBehaviour {
 		}
 
 	}
+
 	void OnTriggerStay2D(Collider2D other)
 	{
 		if (other.name == "LadderCollider")
