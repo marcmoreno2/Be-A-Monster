@@ -94,10 +94,10 @@ public class SlimCampana : MonoBehaviour {
 		if (other.tag == "Arma player")
 		{
 
-			if(name == "Casa1")
+			/*if(name == "Casa1")
 				SystemVar.SystemVar.contCasa1--;
 			else if(name == "Casa2")
-				SystemVar.SystemVar.contCasa2--;
+				SystemVar.SystemVar.contCasa2--;*/
 			
 			float rand = Random.Range(0.0f, 100.0f);
 			if(rand <=25)

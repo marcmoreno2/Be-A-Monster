@@ -5,8 +5,8 @@ namespace SystemVar {
 	
 	public class SystemVar
 	{
-		public static float contCasa1=-1;
-		public static float contCasa2=-1;
+		//public static float contCasa1=-1;
+		//public static float contCasa2=-1;
 		public static bool guardias=false;
 		public static float playerAtack = 100;
 	}

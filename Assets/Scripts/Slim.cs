@@ -3,47 +3,46 @@ using System.Collections;
 
 
 	
-	public class Slim : MonoBehaviour {
-		
-		private Animator ani;
-		
-		public Transform sightStart, sightEnd;
-		//public Rigidbody rb;
-		public bool alerta = false;
-		public bool campana =false;
-		public GameObject bocadillo,PocionS,Hamburguesa,Pollo;
-		public float fuerzaDrop, vida;
-		public float vel=-3;
-		public string name;
-		public bool toc = false;
-		// Use this for initialization
-		void Start ()
-		{
-			ani = GetComponent<Animator> ();
-			//InvokeRepeating ("Patrol",0.0f,Random.Range(2f,5f));
-		   
-			
-		}
-		
-		// Update is called once per frame
-		void Update ()
-		{
-			RayCasting ();
-			Behaviours ();
-			checkDeath ();
+public class Slim : MonoBehaviour {
+
+	private Animator ani;
+
+	public Transform sightStart, sightEnd;
+	//public Rigidbody rb;
+	public bool alerta = false;
+	public bool campana =false;
+	public GameObject bocadillo,PocionS,Hamburguesa,Pollo;
+	public float fuerzaDrop, vida;
+	public float vel=-3;
+	public string name;
+	public bool toc = false;
+	public bool deathC;
+	// Use this for initialization
+	void Start ()
+	{
+		//Debug.Log (transform.parent.name);
+		ani = GetComponent<Animator> ();
+		//InvokeRepeating ("Patrol",0.0f,Random.Range(2f,5f));
+	   
+
+	}
+
+	// Update is called once per frame
+	void Update ()
+	{
+		RayCasting ();
+		Behaviours ();
+		checkDeath ();
+
 		if(!toc)
 			transform.Translate (vel*Time.deltaTime,0.0f,0.0f);
-		}
-		
+		transform.parent = null;
+	}
+
 	void checkDeath()
 	{
 		if (vida <= 0) {
-			//Destroy (gameObject);
-			if(name == "Casa1")
-				SystemVar.SystemVar.contCasa1--;
-			else if(name == "Casa2")
-				SystemVar.SystemVar.contCasa2--;
-			
+			//GetComponentInParent<Casa> ().spawn = true;
 			float rand = Random.Range(0.0f, 100.0f);
 			if(rand <=25)
 			{
@@ -60,7 +59,8 @@ using System.Collections;
 				GameObject p = Instantiate(Pollo, this.transform.position, this.transform.rotation) as GameObject;
 				p.GetComponent<Rigidbody2D>().AddForce(new Vector2(50f,fuerzaDrop));
 			}
-			Destroy (this.gameObject);
+			deathC = true;
+			Destroy (this.gameObject,0.01f);
 		}
 	}
 

@@ -7,7 +7,7 @@ public class Guardia : MonoBehaviour {
 	public float vel=-3;
 	public GameObject PocionS,Hamburguesa,Pollo;
 	public Transform sightStart, sightEnd;
-	public bool alerta = false;
+	public bool alerta = false, muerte = false;
 
 	public float  vida = 200, fuerzaDrop;
 	//public GameObject Atak;
@@ -52,8 +52,7 @@ public class Guardia : MonoBehaviour {
 			ani.SetBool("ataque",false);
 
 		}
-		if (vida <= 0f) {
-
+		if (vida <= 0f && !muerte) {
 			float rand = Random.Range(0.0f, 100.0f);
 			if(rand <=25)
 			{
@@ -70,8 +69,9 @@ public class Guardia : MonoBehaviour {
 				GameObject p = Instantiate(Pollo, this.transform.position, this.transform.rotation) as GameObject;
 				p.GetComponent<Rigidbody2D>().AddForce(new Vector2(50f,fuerzaDrop));
 			}
-
-			Destroy (this.gameObject);
+			ani.SetBool("muerte", true);
+			muerte = true;
+			Destroy(gameObject, ani.GetCurrentAnimatorStateInfo(0).length);
 		}
 
 	}
