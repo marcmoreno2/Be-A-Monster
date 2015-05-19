@@ -67,6 +67,7 @@
      <Compile Include="Assets\Scripts\Slim.cs" />
      <Compile Include="Assets\Scripts\SlimCampana.cs" />
      <Compile Include="Assets\Scripts\SystemVar.cs" />
+     <Compile Include="Assets\Scripts\ataqueGuardia.cs" />
      <Compile Include="Assets\Scripts\campana.cs" />
      <Compile Include="Assets\Scripts\creaGuardias.cs" />
      <Compile Include="Assets\Scripts\prefPlatPek.cs" />
