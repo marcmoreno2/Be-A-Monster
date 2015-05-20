@@ -97,7 +97,18 @@ public class Player : MonoBehaviour {
 		}
 
 	}
-
+	void OnTriggerEnter2D(Collider2D other)
+	{
+		if (other.gameObject.tag == "Mano") 
+		{
+			Debug.Log ("FUNCIONA");
+			agarra=false;
+			this.transform.parent=other.transform;
+			//this.transform.position=this.transform.parent.position;
+			
+			rigbod.isKinematic = true;
+		}
+	}
 	void OnTriggerStay2D(Collider2D other)
 	{
 		if (other.name == "LadderCollider")
@@ -137,16 +148,8 @@ public class Player : MonoBehaviour {
 		{
 			grounded = true;
 		}
-		if (other.gameObject.tag == "Mano") 
-		{
-			Debug.Log ("FUNCIONA");
-			agarra=false;
-			this.transform.parent=other.transform;
-			//this.transform.position=this.transform.parent.position;
-
-			rigbod.isKinematic = true;
-		}
 	}
+
 
 	void OnCollisionStay2D(Collision2D other)
 	{
