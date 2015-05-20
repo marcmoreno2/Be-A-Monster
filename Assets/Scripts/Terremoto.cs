@@ -22,11 +22,12 @@ public class Terremoto : MonoBehaviour {
 		{
 			transform.Translate(new Vector3(dir*0.01f,0f,0f));
 		}*/
-		Destroy(this.gameObject,time);
+		//Destroy(this.gameObject,time);
 
 	}
-	void OnDestroy()
+
+	void moure()
 	{
-		Instantiate (copy, this.transform.position + new Vector3(1f, 0f, 0f),this.transform.rotation);
+		transform.Translate(new Vector3(dir*0.2f,0f,0f));
 	}
 }
