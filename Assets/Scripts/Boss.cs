@@ -3,7 +3,7 @@ using System.Collections;
 
 public class Boss : MonoBehaviour {
 
-	public int vida=1000;
+	public int vidaboss=1000;
 	public GameObject Barrera;
 	private bool contBarrera=true;
 	private int vidab=100;
@@ -16,7 +16,7 @@ public class Boss : MonoBehaviour {
 	void Update () 
 	{
 	
-		if (vida <= 750) {
+		if (vidaboss <= 750) {
 			if (contBarrera) {
 				Instantiate (Barrera, this.transform.position, this.transform.rotation);
 				contBarrera = false;
@@ -26,7 +26,7 @@ public class Boss : MonoBehaviour {
 				}
 			}
 		}
-		if (vida <= 500)
+		if (vidaboss <= 500)
 		{
 
 		}
@@ -34,10 +34,10 @@ public class Boss : MonoBehaviour {
 
 	void OnTriggerEnter2D(Collider2D other)
 	{
-		if (other.tag == "Player") 
+		if (other.tag == "Arma player") 
 		{
-			vida -= 10;
-			Debug.Log (vida);
+			vidaboss -= 10;
+			Debug.Log (vidaboss);
 		}
 	}
 }

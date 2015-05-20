@@ -12,6 +12,7 @@ public class Player : MonoBehaviour {
 	public bool grounded, running, faceright = true, attack, agarra;
 	public float atacVal;
 	private Rigidbody2D rigbod;
+	public Vector3 aux;
 
 	// Use this for initialization
 	void Start () {
@@ -96,17 +97,32 @@ public class Player : MonoBehaviour {
 			}
 		}
 
+		if(SystemVar.SystemVar.vidaPlayer<=0)
+		{
+			Destroy(this.gameObject);
+		}
 	}
 	void OnTriggerEnter2D(Collider2D other)
 	{
 		if (other.gameObject.tag == "Mano") 
 		{
-			Debug.Log ("FUNCIONA");
 			agarra=false;
+
 			this.transform.parent=other.transform;
-			//this.transform.position=this.transform.parent.position;
-			
+			this.transform.position=this.transform.parent.position;
+
+			aux = transform.localScale;
+			aux.x = 1.4f;
+			aux.y =1.4f;
+			transform.localScale = aux;
+
+			Vector3 aux2=transform.localPosition;
+			aux2.x =-0.5f;
+			aux2.y =0.1f;
+			transform.localPosition = aux2;
+
 			rigbod.isKinematic = true;
+
 		}
 	}
 	void OnTriggerStay2D(Collider2D other)
@@ -131,6 +147,7 @@ public class Player : MonoBehaviour {
 			}
 			else ani.speed = 0;
 		}
+
 	}
 
 	void OnTriggerExit2D (Collider2D other)
@@ -144,7 +161,7 @@ public class Player : MonoBehaviour {
 	void OnCollisionEnter2D (Collision2D other)
 	{
 		Debug.Log (other.transform.name);
-		if (other.gameObject.tag == "floor" || other.gameObject.tag == "plat_peke" || other.gameObject.name == "prefPlat_med" || other.gameObject.tag=="Boss")
+		if (other.gameObject.tag == "floor" || other.gameObject.tag == "plat_peke" || other.gameObject.name == "prefPlat_med" || other.gameObject.tag=="Boss" || other.gameObject.tag== "Mano")
 		{
 			grounded = true;
 		}
