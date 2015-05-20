@@ -4,25 +4,29 @@ using System.Collections;
 public class Terremoto : MonoBehaviour {
 
 	public float dir;
+	public GameObject copy;
 	private int cont=0;
-	private float timer=0;
+	private float timer=0, time = 0;
+	private Animator ani;
 	// Use this for initialization
 	void Start () {
-
+		ani = GetComponent<Animator> ();
+		time = ani.GetCurrentAnimatorStateInfo (0).length;
 	}
 	
 	// Update is called once per frame
 	void Update () {
-		timer = Time.deltaTime;
-		if(timer-Time.deltaTime>0.5f)
-		{
-			timer=Time.deltaTime;
-		if (cont < 7) 
-		{
-			transform.Translate(new Vector3(dir,0f,0f));
-		}
-		}
-		Destroy(this.gameObject);
+		//timer = Time.deltaTime;
 
+		/*if(2 - timer>0.5f)
+		{
+			transform.Translate(new Vector3(dir*0.01f,0f,0f));
+		}*/
+		Destroy(this.gameObject,time);
+
+	}
+	void OnDestroy()
+	{
+		Instantiate (copy, this.transform.position + new Vector3(1f, 0f, 0f),this.transform.rotation);
 	}
 }

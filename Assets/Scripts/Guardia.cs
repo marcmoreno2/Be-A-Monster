@@ -4,13 +4,13 @@ using System.Collections;
 public class Guardia : MonoBehaviour {
 
 	private Animator ani;
+	public int freq = 50, i;
 	public float vel=-3;
-
+	private float antVel;
 	public GameObject PocionS,Hamburguesa,Pollo, Terremoto;
 	public Transform sightStart, sightEnd;
-	public bool alerta = false, muerte = false;
-
-	public float  vida = 200, fuerzaDrop;
+	public bool alerta = false, muerte = false, moviment = true;
+	public float  vida = 300, fuerzaDrop;
 	//public GameObject Atak;
 	//public float vel_ataq = 0;
 
@@ -25,9 +25,8 @@ public class Guardia : MonoBehaviour {
 	void Update () {
 		RayCasting ();
 		Behaviours ();
-
-		transform.Translate (vel*Time.deltaTime,0.0f,0.0f);
-		Physics2D.IgnoreLayerCollision (10, 10);
+		if (moviment)
+			transform.Translate (vel*Time.deltaTime,0.0f,0.0f);
 	}
 
 	void RayCasting()
@@ -37,28 +36,36 @@ public class Guardia : MonoBehaviour {
 
 	}
 
-
+	void Terr()
+	{
+		GameObject B = Instantiate(Terremoto, this.transform.position - new Vector3(0.2f*vel,0.2f,0),this.transform.rotation) as GameObject;
+		Terremoto C = B.GetComponent("Terremoto") as Terremoto;
+		C.dir=this.vel;
+	}
 
 	void Behaviours()
 	{
 		if (alerta)
 		{
-
-			vel = 0;
+			moviment = false;
 			ani.SetBool ("ataque", true);
-			GameObject B=Instantiate(Terremoto, this.transform.position - new Vector3(0.1f*vel,0.5f,0),this.transform.rotation) as GameObject;
-			Terremoto C=B.GetComponent("Terremoto") as Terremoto;
-			C.dir=this.vel;
+			i++;
+			if (!muerte && i>freq)
+			{
+				i = 0;
+				Invoke("Terr", ani.GetCurrentAnimatorStateInfo(0).length);
+			}
 
 		}
-		else
+		else if (!moviment && !muerte)
 		{
-
+			moviment = true;
 			ani.SetBool("ataque",false);
-
-
 		}
+
+
 		if (vida <= 0f && !muerte) {
+			moviment = false;
 			float rand = Random.Range(0.0f, 100.0f);
 			if(rand <=25)
 			{
