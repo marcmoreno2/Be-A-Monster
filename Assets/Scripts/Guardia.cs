@@ -5,7 +5,8 @@ public class Guardia : MonoBehaviour {
 
 	private Animator ani;
 	public float vel=-3;
-	public GameObject PocionS,Hamburguesa,Pollo;
+
+	public GameObject PocionS,Hamburguesa,Pollo, Terremoto;
 	public Transform sightStart, sightEnd;
 	public bool alerta = false, muerte = false;
 
@@ -16,6 +17,8 @@ public class Guardia : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
 		ani = GetComponent<Animator> ();
+		name = this.gameObject.name;
+	
 	}
 	
 	// Update is called once per frame
@@ -43,13 +46,16 @@ public class Guardia : MonoBehaviour {
 
 			vel = 0;
 			ani.SetBool ("ataque", true);
-
+			GameObject B=Instantiate(Terremoto, this.transform.position - new Vector3(0.1f*vel,0.5f,0),this.transform.rotation) as GameObject;
+			Terremoto C=B.GetComponent("Terremoto") as Terremoto;
+			C.dir=this.vel;
 
 		}
 		else
 		{
 
 			ani.SetBool("ataque",false);
+
 
 		}
 		if (vida <= 0f && !muerte) {
