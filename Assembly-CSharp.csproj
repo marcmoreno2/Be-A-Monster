@@ -48,6 +48,7 @@
   <ItemGroup>
      <Compile Include="Assets\Scripts\Boss.cs" />
      <Compile Include="Assets\Scripts\Boss_brazos.cs" />
+     <Compile Include="Assets\Scripts\Boss_dedos.cs" />
      <Compile Include="Assets\Scripts\Camera.cs" />
      <Compile Include="Assets\Scripts\CameraChangeScript.cs" />
      <Compile Include="Assets\Scripts\Casa.cs" />
@@ -57,6 +58,7 @@
      <Compile Include="Assets\Scripts\Hamburguesa.cs" />
      <Compile Include="Assets\Scripts\LadderScript.cs" />
      <Compile Include="Assets\Scripts\Limite.cs" />
+     <Compile Include="Assets\Scripts\MainMenu.cs" />
      <Compile Include="Assets\Scripts\Parallax1.cs" />
      <Compile Include="Assets\Scripts\ParallaxNubes.cs" />
      <Compile Include="Assets\Scripts\PathDefinition.cs" />
@@ -67,9 +69,11 @@
      <Compile Include="Assets\Scripts\Slim.cs" />
      <Compile Include="Assets\Scripts\SlimCampana.cs" />
      <Compile Include="Assets\Scripts\SystemVar.cs" />
+     <Compile Include="Assets\Scripts\Terremoto.cs" />
      <Compile Include="Assets\Scripts\ataqueGuardia.cs" />
      <Compile Include="Assets\Scripts\campana.cs" />
      <Compile Include="Assets\Scripts\creaGuardias.cs" />
+     <Compile Include="Assets\Scripts\csAjusteGUI.cs" />
      <Compile Include="Assets\Scripts\prefPlatPek.cs" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
