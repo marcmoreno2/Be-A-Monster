@@ -3,7 +3,10 @@ using System.Collections;
 
 public class MainMenu : MonoBehaviour {
 	public GUISkin _button;
-	
+
+	public string Startgame;
+
+
 	private GUISkin _default;
 	void OnGUI () {
 		
@@ -17,7 +20,7 @@ public class MainMenu : MonoBehaviour {
 		
 		GUI.matrix = Gui.matrixScale;
 		
-		if(GUI.Button (new Rect (450,300,200,50), "Start Game"))
+		/*if(GUI.Button (new Rect (450,300,200,50), "Start Game"))
 		{
 			Application.LoadLevel("Scene1");
 		}
@@ -28,7 +31,7 @@ public class MainMenu : MonoBehaviour {
 		if(GUI.Button (new Rect (450,460,200,50), "Quit"))
 		{
 			Application.Quit ();
-		}
+		}*/
 		
 		GUI.matrix = Gui.matrix;
 		GUI.skin = _default;
@@ -37,13 +40,14 @@ public class MainMenu : MonoBehaviour {
 	}
 	
 	// Use this for initialization
-	void Start () {
-		
+	void StartGame () 
+	{
+		Application.LoadLevel (Startgame);
 	}
 	
 	// Update is called once per frame
-	void Update () {
-		
+	void Exit () {
+		Application.Quit ();
 		
 	}
 }
