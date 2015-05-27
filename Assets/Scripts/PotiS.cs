@@ -18,6 +18,8 @@ public class PotiS : MonoBehaviour {
 		
 		if (other.gameObject.tag == "Player") 
 		{
+			SystemVar.SystemVar.score += 10f;
+			SystemVar.SystemVar.vidaPlayer += 250f;
 			Destroy(this.gameObject);
 		}
 	}

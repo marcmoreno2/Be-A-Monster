@@ -18,6 +18,8 @@ public class Hamburguesa : MonoBehaviour {
 		
 		if (other.gameObject.tag == "Player") 
 		{
+			SystemVar.SystemVar.score += 10f;
+			SystemVar.SystemVar.vidaPlayer += 50f;
 			Destroy(this.gameObject);
 		}
 	}

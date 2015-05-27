@@ -53,4 +53,8 @@ public class Casa : MonoBehaviour {
 			vida-=SystemVar.SystemVar.playerAtack;
 		}
 	}
+	void OnDestroy()
+	{
+		SystemVar.SystemVar.score += 100;
+	}
 }

@@ -101,5 +101,10 @@ public class Slim : MonoBehaviour {
 		if (other.tag == "Arma player")
 			vida -= SystemVar.SystemVar.playerAtack;
 	}
+
+	void OnDestroy()
+	{
+		SystemVar.SystemVar.score += 10f;
+	}
 		
 }

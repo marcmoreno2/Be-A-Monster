@@ -84,7 +84,7 @@ public class Guardia : MonoBehaviour {
 			}
 			ani.SetBool("muerte", true);
 			muerte = true;
-			Destroy(gameObject, ani.GetCurrentAnimatorStateInfo(0).length);
+			Destroy(gameObject, 0.3f);
 		}
 
 	}
@@ -103,6 +103,11 @@ public class Guardia : MonoBehaviour {
 		if (other.tag == "Arma player") {
 			vida -= SystemVar.SystemVar.playerAtack;
 		}
+	}
+
+	void OnDestroy()
+	{
+		SystemVar.SystemVar.score += 30f;
 	}
 
 }
