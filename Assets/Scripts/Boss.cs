@@ -34,10 +34,20 @@ public class Boss : MonoBehaviour {
 
 	void OnTriggerEnter2D(Collider2D other)
 	{
-		if (other.tag == "Arma player") 
+		if (other.tag == "Arma player")
 		{
-			vidaboss -= 10;
-			Debug.Log (vidaboss);
+			if (tag == "Puerta")
+			{
+				vidaboss-=10;
+				Debug.Log ("Puerta");
+				Debug.Log (vidaboss);
+			} 
+			else
+			{
+				vidaboss -= 30;
+				Debug.Log("Cabeza");
+				Debug.Log (vidaboss);
+			}
 		}
 	}
 }

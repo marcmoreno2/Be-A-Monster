@@ -24,38 +24,42 @@ public class Boss_brazos : MonoBehaviour {
 	void OnTriggerStay2D(Collider2D other)
 	{
 
-
-		if (other.tag == "Player")
+		if (other.tag == "Player") 
 		{
-			if(p.agarra)
+			if (p.agarra) 
 			{
 
-				SystemVar.SystemVar.vidaPlayer--;
-				Debug.Log(SystemVar.SystemVar.vidaPlayer);
-				if(Input.GetKeyDown (KeyCode.Z))
-				{
+				SystemVar.SystemVar.vidaPlayer-=0.5f;
+				Debug.Log (SystemVar.SystemVar.vidaPlayer);
+				if (Input.GetKeyDown (KeyCode.Z)) {
+					Debug.Log ("LIBERATE");
 					liberar++;
 				}
-				if(liberar>=5)
+				if (liberar >= 5) {
+					p.agarra = false;
+					p.transform.parent = null;
+					p.GetComponent<Rigidbody2D> ().isKinematic = false;
+					p.transform.rotation = new Quaternion (0, 0, 0, 0);
+					p.faceright = false;
+					aux.x = 1.4f;
+					aux.y = 1.4f;
+					p.transform.localScale = aux;
+					liberar = 0;
+				}
+			}
+			else
+			{
+				if (this.tag == "punyo")
 				{
-					p.agarra=false;
-					p.transform.parent=null;
-					p.GetComponent<Rigidbody2D>().isKinematic=false;
-					p.transform.rotation=new Quaternion(0,0,0,0);
-					p.faceright=false;
-					aux.x=1.5f;
-					aux.y=1.5f;
-					liberar=0;
+				p.GetComponent<Rigidbody2D> ().AddForce (new Vector2 (-70f, 1f));
+				SystemVar.SystemVar.vidaPlayer-=5;
+				Debug.Log ("GOLPEMANO");
+				Debug.Log (SystemVar.SystemVar.vidaPlayer);
+			
 				}
 			}
 		}
-	}
 
-	void OnTriggerEnter2D(Collider2D other)
-	{
-		if (!p.agarra)
-		{
-
-		}
 	}
+	
 }
