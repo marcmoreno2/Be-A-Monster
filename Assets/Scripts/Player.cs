@@ -13,6 +13,7 @@ public class Player : MonoBehaviour {
 	public float atacVal;
 	private Rigidbody2D rigbod;
 	public Vector3 aux;
+	private bool caerEscalera = false;
 
 	// Use this for initialization
 	void Start () {
@@ -124,6 +125,11 @@ public class Player : MonoBehaviour {
 			rigbod.isKinematic = true;
 
 		}
+		if(other.tag == "LadderBot")
+		{
+			caerEscalera = true;
+			rigbod.isKinematic=false;
+		}
 	}
 	void OnTriggerStay2D(Collider2D other)
 	{
@@ -136,12 +142,15 @@ public class Player : MonoBehaviour {
 				ani.speed=0;
 			}
 
-			if (Input.GetKey(KeyCode.UpArrow)){
+			if (Input.GetKey(KeyCode.UpArrow )){
+				caerEscalera = false;
 				ani.speed = 0.5f;
 				transform.Translate (0f, climbSpeed * Time.deltaTime, 0f);
 			}
-			else if (Input.GetKey(KeyCode.DownArrow))
+			else if (Input.GetKey(KeyCode.DownArrow )&& !caerEscalera)
 			{
+
+
 				ani.speed = 0.5f;
 				transform.Translate (0f, -climbSpeed * Time.deltaTime, 0f);
 			}
