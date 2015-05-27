@@ -9,7 +9,7 @@ public class Player : MonoBehaviour {
 	private int dir;
 	public GameObject Estrella;
 	public LayerMask layer_ground;
-	public bool grounded, running, faceright = true, attack, agarra;
+	public bool grounded, running, faceright = true, attack, agarra=false;
 	public float atacVal;
 	private Rigidbody2D rigbod;
 	public Vector3 aux;
@@ -23,7 +23,7 @@ public class Player : MonoBehaviour {
 
 	// Update is called once per frame
 	void FixedUpdate () {
-		if (agarra) {
+		if (!agarra) {
 			if (Input.GetKeyDown (KeyCode.Z)) {
 				Instantiate (Estrella, this.transform.position, this.transform.rotation);
 			}
@@ -106,7 +106,7 @@ public class Player : MonoBehaviour {
 	{
 		if (other.gameObject.tag == "Mano") 
 		{
-			agarra=false;
+			agarra=true;
 
 			this.transform.parent=other.transform;
 			this.transform.position=this.transform.parent.position;

@@ -13,7 +13,7 @@ public class Boss_dedos : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		if (!p.agarra) 
+		if (p.agarra) 
 		{
 			this.GetComponent<Renderer> ().enabled = true;
 		} 
