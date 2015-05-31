@@ -1,24 +1,24 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\Guardia.cs">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\SystemVar.cs">
     <Files>
-      <File FileName="Assets\Scripts\Score.cs" Line="19" Column="1" />
-      <File FileName="Assets\Scripts\Player.cs" Line="10" Column="29" />
-      <File FileName="Assets\Scripts\Casa.cs" Line="59" Column="3" />
-      <File FileName="Assets\Scripts\Guardia.cs" Line="92" Column="41" />
-      <File FileName="Assets\Scripts\Slim.cs" Line="62" Column="18" />
-      <File FileName="Assets\Scripts\Boss_brazos.cs" Line="15" Column="32" />
-      <File FileName="Assets\Scripts\Boss.cs" Line="26" Column="6" />
+      <File FileName="Assets\Scripts\SystemVar.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\Score.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\Player.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\Casa.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\Guardia.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\Slim.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\Boss_brazos.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\Boss.cs" Line="1" Column="1" />
       <File FileName="Assets\Scripts\ParallaxNubes.cs" Line="1" Column="1" />
       <File FileName="Assets\Scripts\campana.cs" Line="1" Column="1" />
       <File FileName="Assets\Scripts\creaGuardias.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\SystemVar.cs" Line="1" Column="1" />
       <File FileName="Assets\Scripts\SlimCampana.cs" Line="1" Column="1" />
       <File FileName="Assets\Scripts\prefPlatPek.cs" Line="1" Column="1" />
       <File FileName="Assets\Scripts\Boss_dedos.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\Hamburguesa.cs" Line="22" Column="40" />
-      <File FileName="Assets\Scripts\Pollo.cs" Line="18" Column="40" />
-      <File FileName="Assets\Scripts\PotiS.cs" Line="27" Column="1" />
+      <File FileName="Assets\Scripts\Hamburguesa.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\Pollo.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\PotiS.cs" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
