@@ -125,14 +125,28 @@ public class Player : MonoBehaviour {
 			rigbod.isKinematic = true;
 
 		}
-		if(other.tag == "LadderBot")
-		{
+		if(other.tag == "LadderBot") {
 			caerEscalera = true;
 			rigbod.isKinematic=false;
 		}
+
 	}
 	void OnTriggerStay2D(Collider2D other)
 	{
+		if (other.tag == "LadderTop") {
+			if (Input.GetKey(KeyCode.Space) || Input.GetKey(KeyCode.LeftArrow) || Input.GetKey(KeyCode.RightArrow))
+			{
+				rigbod.isKinematic = false;
+				ani.SetBool("onLadder", false);
+				ani.speed=1;
+			}else if(Input.GetKey(KeyCode.DownArrow)){
+				rigbod.isKinematic = true;
+				ani.SetBool("onLadder", true);
+				ani.speed = 0.5f;
+				transform.Translate (0f, -climbSpeed * Time.deltaTime, 0f);
+			}
+		}
+
 		if (other.name == "LadderCollider")
 		{
 			if (Input.GetKey(KeyCode.DownArrow) || Input.GetKey(KeyCode.UpArrow))

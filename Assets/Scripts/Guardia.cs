@@ -43,48 +43,53 @@ public class Guardia : MonoBehaviour {
 		C.dir=this.vel;
 	}
 
+	void movStop(){
+		moviment = false;
+	}
+
+	void movStart(){
+		moviment = true;
+	}
+
+	void muerto(){
+		float rand = Random.Range(0.0f, 100.0f);
+		if(rand <=25)
+		{
+			GameObject p = Instantiate(PocionS, this.transform.position, this.transform.rotation) as GameObject;
+			p.GetComponent<Rigidbody2D>().AddForce(new Vector2(50f,fuerzaDrop));
+		}
+		else if(rand <=50)
+		{
+			GameObject p = Instantiate(Hamburguesa, this.transform.position, this.transform.rotation) as GameObject;
+			p.GetComponent<Rigidbody2D>().AddForce(new Vector2(50f,fuerzaDrop));
+		}
+		else if(rand <=75)
+		{
+			GameObject p = Instantiate(Pollo, this.transform.position, this.transform.rotation) as GameObject;
+			p.GetComponent<Rigidbody2D>().AddForce(new Vector2(50f,fuerzaDrop));
+		}
+		//muerte = true;
+		Destroy(gameObject, 0.3f);
+	}
+
 	void Behaviours()
 	{
 		if (alerta)
 		{
 			moviment = false;
 			ani.SetBool ("ataque", true);
-			i++;
-			if (!muerte && i>freq)
-			{
-				i = 0;
-				Invoke("Terr", ani.GetCurrentAnimatorStateInfo(0).length);
-			}
-
 		}
-		else if (!moviment && !muerte)
+		else
 		{
-			moviment = true;
+			//moviment = true;
 			ani.SetBool("ataque",false);
 		}
 
 
-		if (vida <= 0f && !muerte) {
-			moviment = false;
-			float rand = Random.Range(0.0f, 100.0f);
-			if(rand <=25)
-			{
-				GameObject p = Instantiate(PocionS, this.transform.position, this.transform.rotation) as GameObject;
-				p.GetComponent<Rigidbody2D>().AddForce(new Vector2(50f,fuerzaDrop));
-			}
-			else if(rand <=50)
-			{
-				GameObject p = Instantiate(Hamburguesa, this.transform.position, this.transform.rotation) as GameObject;
-				p.GetComponent<Rigidbody2D>().AddForce(new Vector2(50f,fuerzaDrop));
-			}
-			else if(rand <=75)
-			{
-				GameObject p = Instantiate(Pollo, this.transform.position, this.transform.rotation) as GameObject;
-				p.GetComponent<Rigidbody2D>().AddForce(new Vector2(50f,fuerzaDrop));
-			}
+		if (vida <= 0f) {
+			//moviment = false;
+
 			ani.SetBool("muerte", true);
-			muerte = true;
-			Destroy(gameObject, 0.3f);
 		}
 
 	}
