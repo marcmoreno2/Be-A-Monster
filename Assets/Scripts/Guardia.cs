@@ -108,6 +108,7 @@ public class Guardia : MonoBehaviour {
 		if (other.tag == "Arma player") {
 			vida -= SystemVar.SystemVar.playerAtack;
 		}
+
 	}
 
 	void OnDestroy()

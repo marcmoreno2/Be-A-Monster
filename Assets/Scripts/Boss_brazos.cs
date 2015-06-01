@@ -6,14 +6,14 @@ public class Boss_brazos : MonoBehaviour {
 	private Player p;
 	private int liberar;
 	private Vector3 aux;
-
+	private float timer;
 
 	// Use this for initialization
 	void Start () {
 
 		p=jugador.GetComponent<Player> () as Player;
 		aux = p.transform.localScale;
-
+		timer = 0;
 	}
 	
 	// Update is called once per frame
@@ -28,7 +28,28 @@ public class Boss_brazos : MonoBehaviour {
 		{
 			if (p.agarra) 
 			{
+				if(timer>=4)
+				{
 
+					p.agarra = false;
+					p.transform.parent = null;
+					p.GetComponent<Rigidbody2D> ().isKinematic = false;
+					p.transform.rotation = new Quaternion (0, 0, 0, 0);
+					p.faceright = false;
+					aux.x = 1.4f;
+					aux.y = 1.4f;
+					p.transform.localScale = aux;
+					timer = 0;
+
+				}
+				else{
+
+					timer+=0.5f;
+					Debug.Log(timer);
+					}
+
+
+				/*
 				SystemVar.SystemVar.vidaPlayer-=0.5f;
 				Debug.Log (SystemVar.SystemVar.vidaPlayer);
 				if (Input.GetKeyDown (KeyCode.Z)) {
@@ -45,7 +66,7 @@ public class Boss_brazos : MonoBehaviour {
 					aux.y = 1.4f;
 					p.transform.localScale = aux;
 					liberar = 0;
-				}
+				}*/
 			}
 			else
 			{

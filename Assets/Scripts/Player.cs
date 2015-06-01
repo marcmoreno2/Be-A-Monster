@@ -130,6 +130,7 @@ public class Player : MonoBehaviour {
 			rigbod.isKinematic=false;
 		}
 
+
 	}
 	void OnTriggerStay2D(Collider2D other)
 	{
@@ -187,6 +188,13 @@ public class Player : MonoBehaviour {
 		if (other.gameObject.tag == "floor" || other.gameObject.tag == "plat_peke" || other.gameObject.name == "prefPlat_med" || other.gameObject.tag=="Boss" || other.gameObject.tag== "Mano")
 		{
 			grounded = true;
+		}
+		if (other.gameObject.tag == "Guardia") 
+		{
+			if(faceright)
+				rigbod.AddForce(new Vector2(-50f,500f));
+			else
+				rigbod.AddForce(new Vector2(50f,500f));
 		}
 	}
 
