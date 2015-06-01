@@ -7,13 +7,16 @@ public class Boss_brazos : MonoBehaviour {
 	private int liberar;
 	private Vector3 aux;
 	private float timer;
+	private Rigidbody2D rigbod;
 
 	// Use this for initialization
 	void Start () {
 
 		p=jugador.GetComponent<Player> () as Player;
 		aux = p.transform.localScale;
+		rigbod = p.GetComponent<Rigidbody2D> ();
 		timer = 0;
+
 	}
 	
 	// Update is called once per frame
@@ -28,7 +31,7 @@ public class Boss_brazos : MonoBehaviour {
 		{
 			if (p.agarra) 
 			{
-				if(timer>=4)
+				/*if(timer>=2f)
 				{
 
 					p.agarra = false;
@@ -44,16 +47,16 @@ public class Boss_brazos : MonoBehaviour {
 				}
 				else{
 
-					timer+=0.5f;
+					timer+= 1 * Time.deltaTime;
 					Debug.Log(timer);
-					}
+					}*/
 
 
-				/*
+
 				SystemVar.SystemVar.vidaPlayer-=0.5f;
-				Debug.Log (SystemVar.SystemVar.vidaPlayer);
+				//Debug.Log (SystemVar.SystemVar.vidaPlayer);
 				if (Input.GetKeyDown (KeyCode.Z)) {
-					Debug.Log ("LIBERATE");
+					//Debug.Log ("LIBERATE");
 					liberar++;
 				}
 				if (liberar >= 5) {
@@ -66,17 +69,18 @@ public class Boss_brazos : MonoBehaviour {
 					aux.y = 1.4f;
 					p.transform.localScale = aux;
 					liberar = 0;
-				}*/
+				}
 			}
 			else
 			{
 				if (this.tag == "punyo")
 				{
-				p.GetComponent<Rigidbody2D> ().AddForce (new Vector2 (-70f, 1f));
-				SystemVar.SystemVar.vidaPlayer-=5;
-				Debug.Log ("GOLPEMANO");
-				Debug.Log (SystemVar.SystemVar.vidaPlayer);
-			
+					rigbod.AddForce(new Vector2 (-70f, 1f));
+					SystemVar.SystemVar.vidaPlayer-=5;
+					//Debug.Log ("GOLPEMANO");
+					//Debug.Log (SystemVar.SystemVar.vidaPlayer);
+
+					
 				}
 			}
 		}

@@ -184,7 +184,7 @@ public class Player : MonoBehaviour {
 	}
 	void OnCollisionEnter2D (Collision2D other)
 	{
-		Debug.Log (other.transform.name);
+		//Debug.Log (other.transform.name);
 		if (other.gameObject.tag == "floor" || other.gameObject.tag == "plat_peke" || other.gameObject.name == "prefPlat_med" || other.gameObject.tag=="Boss" || other.gameObject.tag== "Mano")
 		{
 			grounded = true;

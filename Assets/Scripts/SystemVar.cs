@@ -8,7 +8,7 @@ namespace SystemVar {
 		//public static float contCasa1=-1;
 		//public static float contCasa2=-1;
 		public static bool guardias=false;
-		public static float playerAtack = 100, vidaPlayer=500, score=0;
+		public static float playerAtack = 100f, vidaPlayer=500f, score=0f, vidaBoss = 1000f;
 
 	}
 	

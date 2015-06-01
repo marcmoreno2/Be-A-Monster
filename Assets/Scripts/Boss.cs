@@ -3,7 +3,7 @@ using System.Collections;
 
 public class Boss : MonoBehaviour {
 
-	public int vidaboss=1000;
+	public float vidaboss = 1000;
 	public GameObject Barrera;
 	private bool contBarrera=true;
 	private int vidab=100;
@@ -15,19 +15,31 @@ public class Boss : MonoBehaviour {
 	// Update is called once per frame
 	void Update () 
 	{
-	
+		//vidaboss = SystemVar.SystemVar.vidaBoss;
 		if (vidaboss <= 750) {
 			if (contBarrera) {
-				Instantiate (Barrera, this.transform.position, this.transform.rotation);
+				/*Barrera barrera = */Instantiate (Barrera, this.transform.position, this.transform.rotation);// as Barrera;
 				contBarrera = false;
-				if(vidab==0)
+				//Debug.Log (barrera.vida);
+				//barrera.gameObject.
+				/*if(barrera.vida<=0f)
 				{
+					Destroy(barrera);
 					contBarrera=true;
-				}
+				}*/
 			}
 		}
 		if (vidaboss <= 500)
 		{
+
+		}
+		if (vidaboss <= 0) {
+			Destroy(gameObject, 2f);
+			this.GetComponent<Rigidbody2D>().isKinematic = false;
+			Barrera barrera = Instantiate (Barrera, this.transform.position, this.transform.rotation) as Barrera;
+			barrera.GetComponent<AreaEffector2D>().forceDirection = 0f;
+			Debug.Log(barrera.GetComponent<AreaEffector2D>().forceDirection);
+
 
 		}
 	}			
@@ -38,7 +50,7 @@ public class Boss : MonoBehaviour {
 		{
 			if (tag == "Puerta")
 			{
-				vidaboss-=10;
+				vidaboss -=10;
 				Debug.Log ("Puerta");
 				Debug.Log (vidaboss);
 			} 
