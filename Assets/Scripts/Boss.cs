@@ -36,10 +36,10 @@ public class Boss : MonoBehaviour {
 		}
 		if (vidaboss <= 0) {
 			Destroy(gameObject, 2f);
-			this.GetComponent<Rigidbody2D>().isKinematic = false;
+			/*this.GetComponent<Rigidbody2D>().isKinematic = false;
 			Barrera barrera = Instantiate (Barrera, this.transform.position, this.transform.rotation) as Barrera;
 			barrera.GetComponent<AreaEffector2D>().forceDirection = 0f;
-			Debug.Log(barrera.GetComponent<AreaEffector2D>().forceDirection);
+			Debug.Log(barrera.GetComponent<AreaEffector2D>().forceDirection);*/
 
 
 		}

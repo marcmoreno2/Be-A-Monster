@@ -114,6 +114,19 @@ public class Player : MonoBehaviour {
 			caerEscalera = true;
 			rigbod.isKinematic=false;
 		}
+		if (other.tag == "Guardia") 
+		{
+			if(faceright)
+			{
+				rigbod.AddForce(new Vector2(-200f,400f));
+				SystemVar.SystemVar.vidaPlayer-=5f;
+			}
+			else
+			{
+				rigbod.AddForce(new Vector2(200f,400f));
+				SystemVar.SystemVar.vidaPlayer-=5f;
+			}
+		}
 
 
 	}
@@ -174,13 +187,7 @@ public class Player : MonoBehaviour {
 		{
 			grounded = true;
 		}
-		if (other.gameObject.tag == "Guardia") 
-		{
-			if(faceright)
-				rigbod.AddForce(new Vector2(-50f,500f));
-			else
-				rigbod.AddForce(new Vector2(50f,500f));
-		}
+
 	}
 
 

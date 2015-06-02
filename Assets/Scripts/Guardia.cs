@@ -9,7 +9,7 @@ public class Guardia : MonoBehaviour {
 	private float antVel;
 	public GameObject PocionS,Hamburguesa,Pollo, Terremoto;
 	public Transform sightStart, sightEnd;
-	public bool alerta = false, muerte = false, moviment = true;
+	public bool alerta = false, muerte = false, moviment = true, alertat1 = true;
 	public float  vida = 300, fuerzaDrop;
 	//public GameObject Atak;
 	//public float vel_ataq = 0;
@@ -76,12 +76,22 @@ public class Guardia : MonoBehaviour {
 	{
 		if (alerta)
 		{
-			moviment = false;
-			ani.SetBool ("ataque", true);
+			if (alertat1){
+			
+				vel *= 3;
+				alertat1 = false;
+			}
+			//moviment = false;
+			//ani.SetBool ("ataque", true);
 		}
 		else
 		{
-			//moviment = true;
+			if (alertat1 == false){
+				alertat1 = true;
+
+				vel/= 3;
+			}
+			moviment = true;
 			ani.SetBool("ataque",false);
 		}
 
@@ -107,6 +117,10 @@ public class Guardia : MonoBehaviour {
 		}
 		if (other.tag == "Arma player") {
 			vida -= SystemVar.SystemVar.playerAtack;
+		}
+		if (other.tag == "Player" && alerta) {
+			moviment = false;
+			ani.SetBool ("ataque", true);
 		}
 
 	}
