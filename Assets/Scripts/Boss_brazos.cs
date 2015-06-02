@@ -12,7 +12,7 @@ public class Boss_brazos : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-
+		this.GetComponent<Renderer> ().enabled = false;
 		p=jugador.GetComponent<Player> () as Player;
 		aux = p.transform.localScale;
 		rigbod = p.GetComponent<Rigidbody2D> ();
@@ -21,9 +21,11 @@ public class Boss_brazos : MonoBehaviour {
 	}
 	
 	// Update is called once per frame
-	void Update () {
+	void Update () 
+	{
+
 		if (atrapat) {
-			SystemVar.SystemVar.vidaPlayer-=0.5f;
+			SystemVar.SystemVar.vidaPlayer -= 0.5f;
 			if (Input.GetKeyDown (KeyCode.Z)) {
 				//Debug.Log ("LIBERATE");
 				liberar++;
@@ -38,9 +40,16 @@ public class Boss_brazos : MonoBehaviour {
 				aux.y = 1.4f;
 				p.transform.localScale = aux;
 				liberar = 0;
-				atrapat= false;
+				atrapat = false;
 			}
 		
+		} else if (SystemVar.SystemVar.startboss == false) 
+		{
+			this.GetComponent<Renderer> ().enabled = false;
+		} 
+		else 
+		{
+			this.GetComponent<Renderer> ().enabled = true;
 		}
 	}
 
@@ -71,7 +80,7 @@ public class Boss_brazos : MonoBehaviour {
 
 			}
 		}
-			else if (this.tag == "punyo" && other.tag == "Player")
+		if (this.tag == "punyo" && other.tag == "Player")
 				{
 					rigbod.AddForce(new Vector2 (-70f, 1f));
 					SystemVar.SystemVar.vidaPlayer-=5;

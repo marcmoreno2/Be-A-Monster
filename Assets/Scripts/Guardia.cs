@@ -128,6 +128,11 @@ public class Guardia : MonoBehaviour {
 	void OnDestroy()
 	{
 		SystemVar.SystemVar.score += 30f;
+		SystemVar.SystemVar.contGuardias++;
+		if (SystemVar.SystemVar.contGuardias == 6)
+		{
+			SystemVar.SystemVar.startboss=true;
+		}
 	}
 
 }

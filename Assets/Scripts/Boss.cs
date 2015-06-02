@@ -10,6 +10,7 @@ public class Boss : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
 
+		this.GetComponent<Renderer> ().enabled = false;
 	}
 	
 	// Update is called once per frame
@@ -21,6 +22,7 @@ public class Boss : MonoBehaviour {
 			if (contBarrera) {
 				/*Barrera barrera = */Instantiate (Barrera, this.transform.position, this.transform.rotation);// as Barrera;
 				contBarrera = false;
+				SystemVar.SystemVar.guardias=true;
 				//Debug.Log (barrera.vida);
 				//barrera.gameObject.
 				/*if(barrera.vida<=0f)
@@ -35,13 +37,17 @@ public class Boss : MonoBehaviour {
 
 		}
 		if (vidaboss <= 0) {
-			Destroy(gameObject, 2f);
+			Destroy (gameObject, 2f);
 			/*this.GetComponent<Rigidbody2D>().isKinematic = false;
 			Barrera barrera = Instantiate (Barrera, this.transform.position, this.transform.rotation) as Barrera;
 			barrera.GetComponent<AreaEffector2D>().forceDirection = 0f;
 			Debug.Log(barrera.GetComponent<AreaEffector2D>().forceDirection);*/
 
 
+		} 
+		else if (SystemVar.SystemVar.startboss == true) 
+		{
+			this.GetComponent<Renderer> ().enabled = true;
 		}
 	}			
 
@@ -62,5 +68,10 @@ public class Boss : MonoBehaviour {
 				Debug.Log (vidaboss);
 			}
 		}
+	}
+
+	void Crear()
+	{
+
 	}
 }
