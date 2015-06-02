@@ -15,8 +15,9 @@ public class Boss : MonoBehaviour {
 	// Update is called once per frame
 	void Update () 
 	{
+		vidaboss = SystemVar.SystemVar.vidaBoss;
 		//vidaboss = SystemVar.SystemVar.vidaBoss;
-		if (vidaboss <= 750) {
+		if (vidaboss <= 750 && this.tag != "Puerta") {
 			if (contBarrera) {
 				/*Barrera barrera = */Instantiate (Barrera, this.transform.position, this.transform.rotation);// as Barrera;
 				contBarrera = false;
@@ -50,13 +51,13 @@ public class Boss : MonoBehaviour {
 		{
 			if (tag == "Puerta")
 			{
-				vidaboss -=10;
+				SystemVar.SystemVar.vidaBoss -=10;
 				Debug.Log ("Puerta");
 				Debug.Log (vidaboss);
 			} 
 			else
 			{
-				vidaboss -= 30;
+				SystemVar.SystemVar.vidaBoss  -= 30;
 				Debug.Log("Cabeza");
 				Debug.Log (vidaboss);
 			}

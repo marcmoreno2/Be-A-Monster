@@ -96,7 +96,7 @@ public class Player : MonoBehaviour {
 				attack = false;
 				ani.SetBool ("attack", false);
 			}
-		}
+		} 
 
 		if(SystemVar.SystemVar.vidaPlayer<=0)
 		{
@@ -108,21 +108,6 @@ public class Player : MonoBehaviour {
 		if (other.gameObject.tag == "Mano") 
 		{
 			agarra=true;
-
-			this.transform.parent=other.transform;
-			this.transform.position=this.transform.parent.position;
-
-			aux = transform.localScale;
-			aux.x = 1.4f;
-			aux.y =1.4f;
-			transform.localScale = aux;
-
-			Vector3 aux2=transform.localPosition;
-			aux2.x =-0.5f;
-			aux2.y =0.1f;
-			transform.localPosition = aux2;
-
-			rigbod.isKinematic = true;
 
 		}
 		if(other.tag == "LadderBot") {
