@@ -148,7 +148,7 @@ public class Guardia : MonoBehaviour {
 	{
 		SystemVar.SystemVar.score += 30f;
 		SystemVar.SystemVar.contGuardias++;
-		if (SystemVar.SystemVar.contGuardias == 6)
+		if (SystemVar.SystemVar.contGuardias == 1)
 		{
 			SystemVar.SystemVar.startboss=true;
 		}

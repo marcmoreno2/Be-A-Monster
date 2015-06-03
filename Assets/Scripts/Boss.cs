@@ -4,11 +4,12 @@ using System.Collections;
 public class Boss : MonoBehaviour {
 
 	public float vidaboss;
-	public GameObject Barrera;
+	public GameObject Barrera, Rayo;
 	private bool contBarrera=true;
 	private int vidab;
 	// Use this for initialization
 	void Start () {
+
 		vidaboss = 1000;
 		vidab=100;
 		this.GetComponent<Renderer> ().enabled = false;
@@ -32,10 +33,12 @@ public class Boss : MonoBehaviour {
 					contBarrera=true;
 				}*/
 			}
+
+
 		}
 		if (vidaboss <= 500)
 		{
-
+			SystemVar.SystemVar.rayos=true;
 		}
 		if (vidaboss <= 0) {
 			Destroy (gameObject, 2f);
@@ -69,10 +72,5 @@ public class Boss : MonoBehaviour {
 				Debug.Log (vidaboss);
 			}
 		}
-	}
-
-	void Crear()
-	{
-
-	}
+	}	
 }
