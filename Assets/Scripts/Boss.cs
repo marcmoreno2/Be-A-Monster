@@ -36,7 +36,8 @@ public class Boss : MonoBehaviour {
 		}
 		if (vidaboss <= 500)
 		{
-
+			Debug.Log ("Rayos");
+			SystemVar.SystemVar.rayos = true;
 		}
 		if (vidaboss <= 0) {
 			Destroy (gameObject, 2f);

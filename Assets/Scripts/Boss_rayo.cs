@@ -12,4 +12,8 @@ public class Boss_rayo : MonoBehaviour {
 	void Update () {
 	
 	}
+
+	void destroy() {
+		Destroy (gameObject);
+	}
 }

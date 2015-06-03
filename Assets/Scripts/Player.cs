@@ -119,6 +119,10 @@ public class Player : MonoBehaviour {
 
 	void OnTriggerEnter2D(Collider2D other)
 	{
+		if (other.tag == "rayo") {
+			SystemVar.SystemVar.vidaPlayer -= 50f;
+			ArraySoundAtk[3].Play();
+		}
 		if (other.gameObject.tag == "Mano") 
 		{
 			agarra=true;
