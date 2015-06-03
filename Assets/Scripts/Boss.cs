@@ -4,15 +4,15 @@ using System.Collections;
 public class Boss : MonoBehaviour {
 
 	public float vidaboss;
-	public GameObject Barrera, Rayo;
+	public GameObject Barrera;
 	private bool contBarrera=true;
 	private int vidab;
 	// Use this for initialization
 	void Start () {
-
 		vidaboss = 1000;
 		vidab=100;
-		this.GetComponent<Renderer> ().enabled = false;
+		//this.GetComponent<Renderer> ().enabled = false;
+		gameObject.SetActive (false);
 	}
 	
 	// Update is called once per frame
@@ -20,7 +20,7 @@ public class Boss : MonoBehaviour {
 	{
 		vidaboss = SystemVar.SystemVar.vidaBoss;
 		//vidaboss = SystemVar.SystemVar.vidaBoss;
-		if (vidaboss <= 750 && this.tag != "Puerta") {
+		if (vidaboss <= 750 && tag != "Puerta") {
 			if (contBarrera) {
 				/*Barrera barrera = */Instantiate (Barrera, this.transform.position, this.transform.rotation);// as Barrera;
 				contBarrera = false;
@@ -33,12 +33,10 @@ public class Boss : MonoBehaviour {
 					contBarrera=true;
 				}*/
 			}
-
-
 		}
 		if (vidaboss <= 500)
 		{
-			SystemVar.SystemVar.rayos=true;
+
 		}
 		if (vidaboss <= 0) {
 			Destroy (gameObject, 2f);
@@ -49,10 +47,6 @@ public class Boss : MonoBehaviour {
 
 
 		} 
-		else if (SystemVar.SystemVar.startboss == true) 
-		{
-			this.GetComponent<Renderer> ().enabled = true;
-		}
 	}			
 
 	void OnTriggerEnter2D(Collider2D other)
@@ -72,5 +66,10 @@ public class Boss : MonoBehaviour {
 				Debug.Log (vidaboss);
 			}
 		}
-	}	
+	}
+
+	void Crear()
+	{
+
+	}
 }
