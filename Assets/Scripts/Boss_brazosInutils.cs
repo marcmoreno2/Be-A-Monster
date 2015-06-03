@@ -5,7 +5,7 @@ public class Boss_brazosInutils : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-		this.GetComponent<Renderer> ().enabled = false;
+		//this.GetComponent<Renderer> ().enabled = false;
 
 
 	}
@@ -13,11 +13,11 @@ public class Boss_brazosInutils : MonoBehaviour {
 	// Update is called once per frame
 	void Update ()
 	{
-		if (SystemVar.SystemVar.startboss == true) 
+		/*if (SystemVar.SystemVar.startboss == true) 
 		{
 
 			this.GetComponent<Renderer> ().enabled = true;
-		} 
+		} */
 	
 
 	}

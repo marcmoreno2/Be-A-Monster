@@ -6,9 +6,11 @@ public class Score : MonoBehaviour {
 
 
 	private Text score;
+
 	// Use this for initialization
 	void Start () {
 		score = GetComponent<Text> ();
+		//boss = FindObjectOfType<Boss> ();
 	}
 	
 	// Update is called once per frame

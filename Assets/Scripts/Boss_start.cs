@@ -5,7 +5,7 @@ public class Boss_start : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-		this.GetComponent<Renderer> ().enabled = true;
+		//this.GetComponent<Renderer> ().enabled = true;
 
 
 	}
@@ -13,10 +13,10 @@ public class Boss_start : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 
-		if (SystemVar.SystemVar.startboss== true)
+		/*if (SystemVar.SystemVar.startboss== true)
 		{
 			this.GetComponent<Renderer> ().enabled = false;
-		}
+		}*/
 
 	}
 }

@@ -4,9 +4,10 @@ using System.Collections;
 public class Boss_dedos : MonoBehaviour {
 	public GameObject jugador;
 	private Player p;
+	private Renderer r;
 	// Use this for initialization
 	void Start () {
-
+		r = GetComponent<Renderer> ();
 		p=jugador.GetComponent<Player> () as Player;
 
 	}
@@ -15,11 +16,11 @@ public class Boss_dedos : MonoBehaviour {
 	void Update () {
 		if (p.agarra) 
 		{
-			this.GetComponent<Renderer> ().enabled = true;
+			r.enabled = true;
 		} 
 		else
 		{
-			this.GetComponent<Renderer> ().enabled = false;
+			r.enabled = false;
 		}
 	}
 }

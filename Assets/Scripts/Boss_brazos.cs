@@ -12,7 +12,7 @@ public class Boss_brazos : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-		this.GetComponent<Renderer> ().enabled = false;
+		//this.GetComponent<Renderer> ().enabled = false;
 		p=jugador.GetComponent<Player> () as Player;
 		aux = p.transform.localScale;
 		rigbod = p.GetComponent<Rigidbody2D> ();
@@ -43,13 +43,13 @@ public class Boss_brazos : MonoBehaviour {
 				atrapat = false;
 			}
 		
-		} else if (SystemVar.SystemVar.startboss == false) 
+		/*} else if (SystemVar.SystemVar.startboss == false) 
 		{
 			this.GetComponent<Renderer> ().enabled = false;
 		} 
 		else 
 		{
-			this.GetComponent<Renderer> ().enabled = true;
+			this.GetComponent<Renderer> ().enabled = true;*/
 		}
 	}
 
