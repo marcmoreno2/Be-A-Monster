@@ -3,13 +3,14 @@ using System.Collections;
 
 public class Boss : MonoBehaviour {
 
-	public float vidaboss = 1000;
+	public float vidaboss;
 	public GameObject Barrera;
 	private bool contBarrera=true;
-	private int vidab=100;
+	private int vidab;
 	// Use this for initialization
 	void Start () {
-
+		vidaboss = 1000;
+		vidab=100;
 		this.GetComponent<Renderer> ().enabled = false;
 	}
 	

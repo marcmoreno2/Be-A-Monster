@@ -42,7 +42,16 @@ public class MainMenu : MonoBehaviour {
 	// Use this for initialization
 	void StartGame () 
 	{
-		Application.LoadLevel (Startgame);
+		SystemVar.SystemVar.guardias = false;
+		SystemVar.SystemVar.startboss = false;
+		SystemVar.SystemVar.renderBoss=false;
+		SystemVar.SystemVar.contGuardias=0;
+		SystemVar.SystemVar.playerAtack = 100f;
+		SystemVar.SystemVar.vidaPlayer = 500f;
+		SystemVar.SystemVar.score = 0f;
+		SystemVar.SystemVar.vidaBoss = 1000f;
+		Application.LoadLevel(Startgame);
+
 	}
 	
 	// Update is called once per frame

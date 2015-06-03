@@ -14,20 +14,28 @@ public class Player : MonoBehaviour {
 	private Rigidbody2D rigbod;
 	public Vector3 aux;
 	private bool caerEscalera = false;
+	private AudioSource[] ArraySoundAtk;
 
 	// Use this for initialization
 	void Start () {
 		ani = GetComponent<Animator> ();
 		rigbod = GetComponent<Rigidbody2D> ();
+		ArraySoundAtk = GetComponents<AudioSource> ();
 	//	fisicas = GetComponent<Rigidbody2D> ();
+	}
+
+	void SoundAtk(){
+		ArraySoundAtk[Random.Range(0,3)].Play();
 	}
 
 	// Update is called once per frame
 	void FixedUpdate () {
+		if (SystemVar.SystemVar.vidaPlayer > 500f)
+			SystemVar.SystemVar.vidaPlayer = 500f;
 		if (!agarra) {
-			if (Input.GetKeyDown (KeyCode.Z)) {
+			/*if (Input.GetKeyDown (KeyCode.Z)) {
 				Instantiate (Estrella, this.transform.position, this.transform.rotation);
-			}
+			}*/
 			//grounded1 = Physics2D.Raycast(this.transform.position - new Vector3(-0.2f,0f,0f), new Vector2(0f, -1f), 0.8f, layer_ground);
 			//grounded = Physics2D.Raycast(this.transform.position, new Vector2(0f, -1f), 0.8f, layer_ground);
 			//grounded3 = Physics2D.Raycast(this.transform.position - new Vector3(0.2f,0f,0f), new Vector2(0f, -1f), 0.8f, layer_ground);
@@ -89,10 +97,11 @@ public class Player : MonoBehaviour {
 					rigbod.AddForce (new Vector2 (0f, salto));
 				grounded = false;
 			}
+
 			if (Input.GetKey (KeyCode.X) && grounded) {
 				attack = true;
 				ani.SetBool ("attack", true);		
-			} else {
+			} else if (attack == true) {
 				attack = false;
 				ani.SetBool ("attack", false);
 			}
@@ -103,6 +112,11 @@ public class Player : MonoBehaviour {
 			Destroy(this.gameObject);
 		}
 	}
+
+	void OnDestroy(){
+		Application.LoadLevel("Main_Menu");
+	}
+
 	void OnTriggerEnter2D(Collider2D other)
 	{
 		if (other.gameObject.tag == "Mano") 
@@ -113,18 +127,37 @@ public class Player : MonoBehaviour {
 		if(other.tag == "LadderBot") {
 			caerEscalera = true;
 			rigbod.isKinematic=false;
+			if(Input.GetKey (KeyCode.UpArrow))
+				transform.Translate(0f, climbSpeed * Time.deltaTime, 0f);
 		}
 		if (other.tag == "Guardia") 
 		{
-			if(faceright)
+			GameObject d = other.gameObject as GameObject;
+			Guardia g = d.GetComponent<Guardia>() as Guardia;
+			if(this.transform.position.x < d.transform.position.x)
 			{
-				rigbod.AddForce(new Vector2(-200f,400f));
-				SystemVar.SystemVar.vidaPlayer-=5f;
+				if(g.embestida){
+					rigbod.AddForce(new Vector2(-50f,200f));
+					SystemVar.SystemVar.vidaPlayer-=30f;
+				}
+				else if(g.ataque){
+					rigbod.AddForce(new Vector2(-100f,400f));
+					SystemVar.SystemVar.vidaPlayer-=20f;
+				}
+				ArraySoundAtk[3].Play();
 			}
 			else
 			{
-				rigbod.AddForce(new Vector2(200f,400f));
-				SystemVar.SystemVar.vidaPlayer-=5f;
+				if(g.embestida){
+					rigbod.AddForce(new Vector2(50f,200f));
+					SystemVar.SystemVar.vidaPlayer-=30f;
+				}
+				else if(g.ataque){
+					rigbod.AddForce(new Vector2(100f,400f));
+					SystemVar.SystemVar.vidaPlayer-=20f;
+				}
+				ArraySoundAtk[3].Play();
+
 			}
 		}
 

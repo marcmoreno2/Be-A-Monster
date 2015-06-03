@@ -22,6 +22,7 @@ public class campana : MonoBehaviour {
 			//Debug.Log ("tocado");
 			ani.SetBool("tocado",true);
 			SystemVar.SystemVar.guardias=true;
+			GetComponent<ParticleSystem>().Play();
 
 		}
 	}

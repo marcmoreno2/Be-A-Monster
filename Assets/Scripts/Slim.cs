@@ -13,13 +13,14 @@ public class Slim : MonoBehaviour {
 	public bool campana =false;
 	public GameObject bocadillo,PocionS,Hamburguesa,Pollo;
 	public float fuerzaDrop, vida;
-	public float vel=-3;
+	public float vel;
 	public string name;
 	public bool toc = false;
 	public bool deathC;
 	// Use this for initialization
 	void Start ()
 	{
+		vel=-3;
 		//Debug.Log (transform.parent.name);
 		ani = GetComponent<Animator> ();
 		//InvokeRepeating ("Patrol",0.0f,Random.Range(2f,5f));
