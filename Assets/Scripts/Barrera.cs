@@ -14,7 +14,7 @@ public class Barrera : MonoBehaviour {
 	// Update is called once per frame
 	void Update () 
 	{
-		if (SystemVar.SystemVar.contGuardias == 6) 
+		if (SystemVar.SystemVar.contGuardias == 1) 
 		{
 			Destroy (gameObject);
 			SystemVar.SystemVar.contGuardias = 0;
